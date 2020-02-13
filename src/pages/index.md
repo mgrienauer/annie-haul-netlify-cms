@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: ANNIE HAUL
-image: /img/fremontbridge.jpg
+image: /img/home-jumbotron.jpg
 heading: What We Do
 subheading: Hauling with a conscience
 mainpitch:
