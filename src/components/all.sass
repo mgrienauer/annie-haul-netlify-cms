@@ -4,7 +4,7 @@
 // Kaldi logo brand color: #FD461E
 $kaldi-red: #D64000
 $kaldi-red-invert: #fff
-$annie-green: #6DECAF
+$annie-green: #75b79e
 
 $primary: $annie-green
 $primary-invert: $kaldi-red-invert
@@ -12,7 +12,9 @@ $body-color: #333
 $black: #2b2523
 
 .navbar 
-  position: fixed
+  z-index: 100 !important
+  position: fixed !important
+  width: 100%
 
 .navbar .navbar-menu
   box-shadow:none !important
@@ -35,7 +37,7 @@ $black: #2b2523
 // Helper Classes
 .full-width-image-container
   width: 100vw
-  height: 400px
+  height: 450px
   position: relative
   left: 50%
   right: 50%
@@ -48,7 +50,7 @@ $black: #2b2523
 
 .full-width-image
     width: 100vw
-    height: 400px
+    height: 450px
     background-size: cover
     background-position: center
     display: flex
@@ -67,8 +69,8 @@ $black: #2b2523
     font-weight: 700
     color: $primary
     text-align: center
-    -webkit-box-shadow: inset 0 0 0 2px #CC3700
-    box-shadow: inset 0 0 0 2px #f40
+    -webkit-box-shadow: inset 0 0 0 2px $primary
+    box-shadow: inset 0 0 0 2px $primary
     -webkit-transition: all .15s ease
     transition: all .15s ease
 
@@ -118,7 +120,7 @@ $menu-label-color: $white-ter
 
 // blog roll
 .blog-list-item.is-featured
-  background-color: #d6400033;
+  background-color: #eef9bf;
 .blog-list-item header
   display: flex;
   margin-bottom: 1em;
