@@ -27,7 +27,7 @@ intro:
         in the greenest, most eco-friendly way possible. Our principle business
         ethic is to reuse, recycle, and donate everything first! We believe in
         honesty, reliablity and a good work ethic. NO DUMP TRUCKS. 
-    - image: /img/Full truck pic.jpg
+    - image: /img/Annie Haul twin trucks.jpg
       text: >-
         Annie Haul supports many local non-profits in Portland and our aim is to
         donate and recycle whenever possible, thus improving disadvantaged
