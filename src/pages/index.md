@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: ANNIE HAUL
-image: /img/home-jumbotron.jpg
+image: /img/fremontbridge.jpg
 heading: What We Do
 subheading: Hauling with a conscience
 mainpitch:
@@ -27,7 +27,7 @@ intro:
         in the greenest, most eco-friendly way possible. Our principle business
         ethic is to reuse, recycle, and donate everything first! We believe in
         honesty, reliablity and a good work ethic. NO DUMP TRUCKS. 
-    - image: /img/coffee-gear.png
+    - image: /img/Full truck pic.jpg
       text: >-
         Annie Haul supports many local non-profits in Portland and our aim is to
         donate and recycle whenever possible, thus improving disadvantaged
@@ -35,7 +35,7 @@ intro:
         assured that any of your unwanted items that can be reused or recycled
         will be. When we do dispose of items we are committed to doing so safely
         and according to City regulations
-    - image: /img/tutorials.png
+    - image: /img/Annie Haul garage clear out.jpg
       text: >-
         By hiring Annie Haul you are supporting a locally owned business with a
         forward thinking strategy. We deliver our promises and care about the
