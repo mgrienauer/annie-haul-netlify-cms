@@ -1,6 +1,5 @@
 ---
-templateKey: 'product-page'
-path: /products
+templateKey: product-page
 title: Our Coffee
 image: /img/jumbotron.jpg
 heading: Great coffee with a conscience
@@ -82,20 +81,31 @@ pricing:
         - 3 lbs of coffee per month
         - Green or roasted beans"
         - One or two varieties of beans"
-      plan: Small
-      price: '50'
+      plan: 1/4 Truckload
+      price: $250-375
     - description: 'Great for avid drinkers, java-loving couples and bigger crowds'
       items:
         - 6 lbs of coffee per month
         - Green or roasted beans
         - Up to 4 different varieties of beans
-      plan: Big
-      price: '80'
+      plan: 1/3 Truckload
+      price: $375-525
     - description: Want a few tiny batches from different varieties? Try our custom plan
       items:
         - Whatever you need
         - Green or roasted beans
         - Unlimited varieties
-      plan: Custom
-      price: '??'
+      plan: 1/2 Truckload
+      price: $575-750
+    - description: dsfsdfdsf
+      items:
+        - sdfsdfsdfdsf
+      plan: 3/4 Truckload
+      price: $850-1000
+    - description: A complete tuckload
+      items:
+        - sdsfdsf
+      plan: Full Truckload
+      price: $1200-1400
 ---
+
