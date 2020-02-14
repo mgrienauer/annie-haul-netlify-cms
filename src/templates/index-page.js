@@ -165,6 +165,10 @@ export const pageQuery = graphql`
 						}
 					}
 				}
+				testimonials {
+					author
+					quote
+				}
 				heading
 				subheading
 				mainpitch {
