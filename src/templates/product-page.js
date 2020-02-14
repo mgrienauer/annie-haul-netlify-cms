@@ -5,7 +5,6 @@ import Layout from "../components/Layout";
 import Features from "../components/Features";
 import Testimonials from "../components/Testimonials";
 import Pricing from "../components/Pricing";
-import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 
 export const ProductPageTemplate = ({
 	image,
@@ -50,7 +49,6 @@ export const ProductPageTemplate = ({
 					</div>
 					<div className="columns">
 						<div className="column is-10 is-offset-1">
-							<Features gridItems={intro.blurbs} />
 							<div className="columns">
 								<div className="column is-7">
 									<h3 className="has-text-weight-semibold is-size-3">
@@ -59,23 +57,12 @@ export const ProductPageTemplate = ({
 									<p>{main.description}</p>
 								</div>
 							</div>
-
-							<Testimonials testimonials={testimonials} />
-							<div
-								className="full-width-image-container"
-								style={{
-									backgroundImage: `url(${
-										fullImage.childImageSharp
-											? fullImage.childImageSharp.fluid.src
-											: fullImage
-									})`,
-								}}
-							/>
 							<h2 className="has-text-weight-semibold is-size-2">
 								{pricing.heading}
 							</h2>
 							<p className="is-size-5">{pricing.description}</p>
 							<Pricing data={pricing.plans} />
+							<Testimonials testimonials={testimonials} />
 						</div>
 					</div>
 				</div>
