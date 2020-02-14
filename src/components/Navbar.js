@@ -77,7 +77,7 @@ const Navbar = class extends React.Component {
 							</Link>
 						</div>
 						<div className="navbar-end has-text-centered">
-							<p>123-456-5678</p>
+							<span>123-456-5678</span>
 						</div>
 					</div>
 				</div>
