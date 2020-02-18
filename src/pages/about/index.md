@@ -1,6 +1,7 @@
 ---
 templateKey: about-page
 title: About Annie Haul
+image: img/Annie Haul Ad photo.jpg
 ---
 <!--StartFragment-->
 
