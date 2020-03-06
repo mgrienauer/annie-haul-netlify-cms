@@ -46,28 +46,43 @@ collections:
               default: "index-page",
             }
           - { label: Title, name: title, widget: string }
-          - { label: Image, name: image, widget: image }
-          - { label: Heading, name: heading, widget: string }
-          - { label: Subheading, name: subheading, widget: string }
+          - { label: Subtitle, name: subtitle, widget: string }
+          - { label: Main Image, name: image, widget: image }
+
           - {
               label: Mainpitch,
               name: mainpitch,
               widget: object,
               fields:
                 [
-                  { label: Title, name: title, widget: string },
-                  { label: Description, name: description, widget: text },
+                  { label: Banner, name: banner, widget: image },
+                  { label: Heading 1, name: heading1, widget: string },
+                  { label: Subheading 1, name: subheading1, widget: string },
+                  { label: Description 1, name: description1, widget: text },
+
+                  { label: Heading 2, name: heading2, widget: string },
+                  { label: Subheading 2, name: subheading2, widget: string },
+                  { label: Description 2, name: description2, widget: text },
+
+                  { label: Heading 3, name: heading3, widget: string },
+                  { label: Subheading 3, name: subheading3, widget: string },
+                  { label: Description 3, name: description3, widget: text },
                 ],
             }
-          - { label: Description, name: description, widget: string }
           - {
-              label: Intro,
-              name: intro,
+              label: Image Slides,
+              name: carouselImgs,
+              widget: list,
+              fields: [{ label: Image, name: image, widget: image }],
+            }
+          - {
+              label: Blurbs,
+              name: blurbs,
               widget: object,
               fields:
                 [
                   { label: Heading, name: heading, widget: string },
-                  { label: Description, name: description, widget: text },
+                  { label: Subheading, name: subheading, widget: string },
                   {
                     label: Blurbs,
                     name: blurbs,
@@ -80,20 +95,6 @@ collections:
                   },
                 ],
             }
-
-      - file: "src/pages/about/index.md"
-        label: "About"
-        name: "about"
-        fields:
-          - {
-              label: "Template Key",
-              name: "templateKey",
-              widget: "hidden",
-              default: "about-page",
-            }
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Image", name: "image", widget: "image" }
-          - { label: "Body", name: "body", widget: "markdown" }
 
       - file: "src/pages/pricing/index.md"
         label: "Pricing Page"

@@ -4,16 +4,21 @@ import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 
-export const AboutPageTemplate = ({ title, content, contentComponent }) => {
+export const AboutPageTemplate = ({
+	title,
+	content,
+	contentComponent,
+	image,
+}) => {
 	const PageContent = contentComponent || Content;
 
 	return (
 		<section className="section section--gradient">
-			{/* <div
+			<div
 				className="full-width-image-container margin-top-0"
 				style={{
 					backgroundImage: `url(${
-						!!image.childImageSharp ? image.childImageSharp.fluid.src : image
+						!!image.childImageSharp ? image.childImageSharp.fluid.src : ""
 					})`,
 				}}
 			>
@@ -28,7 +33,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
 				>
 					{title}
 				</h2>
-			</div> */}
+			</div>
 
 			<div className="container">
 				<div className="columns">

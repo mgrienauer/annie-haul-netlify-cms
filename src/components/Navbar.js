@@ -34,7 +34,7 @@ const Navbar = class extends React.Component {
 	render() {
 		return (
 			<nav
-				className="navbar is-transparent"
+				className="navbar is-success"
 				role="navigation"
 				aria-label="main-navigation"
 			>
@@ -44,12 +44,12 @@ const Navbar = class extends React.Component {
 							<img
 								src={logo}
 								alt="Annie Haul"
-								style={{ height: "70px", width: "140px" }}
+								style={{ height: "80px", width: "140px" }}
 							/>
 						</Link>
 						{/* Hamburger menu */}
 						<div
-							className={`navbar-burger burger ${this.state.navBarActiveClass}`}
+							className={`navbar-burger burger is-success ${this.state.navBarActiveClass}`}
 							data-target="navMenu"
 							onClick={() => this.toggleHamburger()}
 						>
@@ -66,9 +66,6 @@ const Navbar = class extends React.Component {
 							<Link className="navbar-item" to="/">
 								Home
 							</Link>
-							<Link className="navbar-item" to="/about">
-								About
-							</Link>
 							<Link className="navbar-item" to="/products">
 								Pricing
 							</Link>
@@ -79,9 +76,7 @@ const Navbar = class extends React.Component {
 								Contact
 							</Link>
 						</div>
-						<div className="navbar-end has-text-centered">
-							<span>123-456-5678</span>
-						</div>
+						<div className="navbar-end has-text-centered"></div>
 					</div>
 				</div>
 			</nav>
