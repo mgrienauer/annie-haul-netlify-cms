@@ -6,114 +6,138 @@ import Layout from "../components/Layout";
 import Features from "../components/Features";
 import BlogRoll from "../components/BlogRoll";
 
-export const IndexPageTemplate = ({
-	image,
-	title,
-	heading,
-	subheading,
-	mainpitch,
-	description,
-	intro,
-}) => (
-	<div>
-		<div
-			className="full-width-image main-hero margin-top-0"
-			style={{
-				backgroundImage: `
+export const IndexPageTemplate = ({ title, image, subtitle, mainpitch }) => {
+	console.log(mainpitch.banner);
+
+	return (
+		<div>
+			<div
+				className="full-width-image main-hero margin-top-0"
+				style={{
+					backgroundImage: `
 				linear-gradient(to right, rgb(0,128,0,0.4) 33%, rgb(255,255,255,0.4) 33% 66%, rgb(255,165,0,0.4) 66% 100%),
 				url(${!!image.childImageSharp ? image.childImageSharp.fluid.src : image})`,
-				backgroundPosition: `center center`,
-			}}
-		>
-			<div
-				style={{
-					display: "flex",
-					height: "150px",
-					lineHeight: "1",
-					justifyContent: "space-around",
-					alignItems: "left",
-					flexDirection: "column",
+					backgroundPosition: `center center`,
 				}}
 			>
-				<h1
-					className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+				<div
 					style={{
-						boxShadow:
-							"rgb(117, 183, 158) 0.5rem 0px 0px, rgb(117, 183, 158) -0.5rem 0px 0px",
-						backgroundColor: "rgb(117, 183, 158)",
-						color: "white",
+						display: "flex",
+						height: "150px",
 						lineHeight: "1",
-						padding: "0.4em",
+						justifyContent: "space-around",
+						alignItems: "left",
+						flexDirection: "column",
 					}}
 				>
-					{title}
-				</h1>
-				<h3
-					className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
-					style={{
-						boxShadow:
-							"rgb(117, 183, 158) 0.5rem 0px 0px, rgb(117, 183, 158) -0.5rem 0px 0px",
-						backgroundColor: "rgb(117, 183, 158)",
-						color: "white",
-						lineHeight: "1",
-						padding: "0.35em",
-					}}
-				>
-					{subheading}
-				</h3>
+					<h1
+						className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
+						style={{
+							boxShadow:
+								"rgb(117, 183, 158) 0.5rem 0px 0px, rgb(117, 183, 158) -0.5rem 0px 0px",
+							backgroundColor: "rgb(117, 183, 158)",
+							color: "white",
+							lineHeight: "1",
+							padding: "0.4em",
+						}}
+					>
+						{title}
+					</h1>
+					<h3
+						className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
+						style={{
+							boxShadow:
+								"rgb(117, 183, 158) 0.5rem 0px 0px, rgb(117, 183, 158) -0.5rem 0px 0px",
+							backgroundColor: "rgb(117, 183, 158)",
+							color: "white",
+							lineHeight: "1",
+							padding: "0.35em",
+						}}
+					>
+						{subtitle}
+					</h3>
+				</div>
 			</div>
-		</div>
-		<section className="section section--gradient">
-			<div className="container">
-				<div className="section">
-					<div className="columns">
-						<div className="column is-10 is-offset-1">
-							<div className="content">
+			<section className="section section--gradient">
+				<div className="container">
+					<div className="section">
+						<div className="columns">
+							<div className="column is-10 is-offset-1">
+								<img src={mainpitch.banner}></img>
+							</div>
+							<div className="column is-10 is-offset-1">
 								<div className="content">
-									<div className="tile">
-										<h3 className="title has-text-weight-semibold is-size-2">
-											{mainpitch.title}
-										</h3>
+									<div className="content">
+										<div className="tile">
+											<h3 className="title has-text-weight-semibold is-size-2">
+												{mainpitch.heading1}
+											</h3>
+											<h4 className="title has-text-weight-semibold is-size-3">
+												{mainpitch.subheading1}
+											</h4>
+											<div className="content">
+												<p>{mainpitch.description1}</p>
+											</div>
+										</div>
 									</div>
-									<div className="tile">
-										<p className="subtitle">{mainpitch.description}</p>
+
+									<div className="content">
+										<div className="tile">
+											<h3 className="title has-text-weight-semibold is-size-2">
+												{mainpitch.heading2}
+											</h3>
+											<h4 className="title has-text-weight-semibold is-size-3">
+												{mainpitch.subheading2}
+											</h4>
+											<div className="content">
+												<p>{mainpitch.description2}</p>
+											</div>
+										</div>
 									</div>
-								</div>
-								<div className="columns">
-									<div className="column is-12">
-										<h3 className="has-text-weight-semibold is-size-2">
-											{heading}
-										</h3>
-										<p>{description}</p>
+
+									<div className="content">
+										<div className="tile">
+											<h3 className="title has-text-weight-semibold is-size-2">
+												{mainpitch.heading3}
+											</h3>
+											<h4 className="title has-text-weight-semibold is-size-3">
+												{mainpitch.subheading3}
+											</h4>
+											<div className="content">
+												<p>{mainpitch.description3}</p>
+											</div>
+										</div>
 									</div>
-								</div>
-								<Features gridItems={intro.blurbs} />
+
+									{/* <Features gridItems={intro.blurbs} />
 								<div className="columns">
 									<div className="column is-12 has-text-centered">
 										<Link className="btn" to="/products">
 											See Pricing <strong>→</strong>
 										</Link>
 									</div>
-								</div>
-								<div className="column is-12">
-									<h3 className="has-text-weight-semibold is-size-2">
-										Latest stories
-									</h3>
-									<BlogRoll />
-									<div className="column is-12 has-text-centered">
-										<Link className="btn" to="/blog">
-											Read more <strong>→</strong>
-										</Link>
+								</div> */}
+
+									<div className="column is-12">
+										<h3 className="has-text-weight-semibold is-size-2">
+											Latest stories
+										</h3>
+										<BlogRoll />
+										<div className="column is-12 has-text-centered">
+											<Link className="btn" to="/blog">
+												Read more <strong>→</strong>
+											</Link>
+										</div>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-		</section>
-	</div>
-);
+			</section>
+		</div>
+	);
+};
 
 IndexPageTemplate.propTypes = {
 	image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
@@ -160,37 +184,19 @@ export const pageQuery = graphql`
 		markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
 			frontmatter {
 				title
-				image {
-					childImageSharp {
-						fluid(maxWidth: 2048, quality: 100) {
-							...GatsbyImageSharpFluid
-						}
-					}
-				}
-				testimonials {
-					author
-					quote
-				}
-				heading
-				subheading
+				subtitle
+				image
 				mainpitch {
-					title
-					description
-				}
-				description
-				intro {
-					blurbs {
-						image {
-							childImageSharp {
-								fluid(maxWidth: 240, quality: 64) {
-									...GatsbyImageSharpFluid
-								}
-							}
-						}
-						text
-					}
-					heading
-					description
+					banner
+					heading1
+					heading2
+					heading3
+					subheading1
+					subheading2
+					subheading3
+					description1
+					description2
+					description3
 				}
 			}
 		}
