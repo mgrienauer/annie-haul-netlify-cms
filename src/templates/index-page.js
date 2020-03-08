@@ -58,58 +58,47 @@ export const IndexPageTemplate = ({ title, image, subtitle, mainpitch }) => {
 					</h3>
 				</div>
 			</div>
-			<section className="section section--gradient">
+			<section className="section">
 				<div className="container">
-					<div className="section">
-						<div className="columns">
-							<div className="column is-10 is-offset-1">
-								<img src={mainpitch.banner}></img>
-							</div>
-							<div className="column is-10 is-offset-1">
+					<div className="columns">
+						<div className="column is-10 is-offset-1">
+							<img src={mainpitch.banner}></img>
+						</div>
+					</div>
+					<div className="columns">
+						<div className="column is-10 is-offset-1">
+							<div className="content">
 								<div className="content">
-									<div className="content">
-										<div className="tile">
-											<h3 className="title has-text-weight-semibold is-size-2">
-												{mainpitch.heading1}
-											</h3>
-											<h4 className="title has-text-weight-semibold is-size-3">
-												{mainpitch.subheading1}
-											</h4>
-											<div className="content">
-												<p>{mainpitch.description1}</p>
-											</div>
-										</div>
-									</div>
+									<h3 className="title has-text-green has-text-weight-semibold is-size-2">
+										{mainpitch.heading1}
+									</h3>
+									<h4 className="title has-text-lighter-green has-text-weight-semibold is-size-3">
+										{mainpitch.subheading1}
+									</h4>
+									<p className="has-text-dark-grey">{mainpitch.description1}</p>
+								</div>
 
-									<div className="content">
-										<div className="tile">
-											<h3 className="title has-text-weight-semibold is-size-2">
-												{mainpitch.heading2}
-											</h3>
-											<h4 className="title has-text-weight-semibold is-size-3">
-												{mainpitch.subheading2}
-											</h4>
-											<div className="content">
-												<p>{mainpitch.description2}</p>
-											</div>
-										</div>
-									</div>
+								<div className="content">
+									<h3 className="title has-text-green has-text-weight-semibold is-size-2">
+										{mainpitch.heading2}
+									</h3>
+									<h4 className="title has-text-lighter-green has-text-weight-semibold is-size-3">
+										{mainpitch.subheading2}
+									</h4>
+									<p className="has-text-dark-grey">{mainpitch.description2}</p>
+								</div>
 
-									<div className="content">
-										<div className="tile">
-											<h3 className="title has-text-weight-semibold is-size-2">
-												{mainpitch.heading3}
-											</h3>
-											<h4 className="title has-text-weight-semibold is-size-3">
-												{mainpitch.subheading3}
-											</h4>
-											<div className="content">
-												<p>{mainpitch.description3}</p>
-											</div>
-										</div>
-									</div>
+								<div className="content">
+									<h3 className="title has-text-green has-text-weight-semibold is-size-2">
+										{mainpitch.heading3}
+									</h3>
+									<h4 className="title has-text-lighter-green has-text-weight-semibold is-size-3">
+										{mainpitch.subheading3}
+									</h4>
+									<p className="has-text-dark-grey">{mainpitch.description3}</p>
+								</div>
 
-									{/* <Features gridItems={intro.blurbs} />
+								{/* <Features gridItems={intro.blurbs} />
 								<div className="columns">
 									<div className="column is-12 has-text-centered">
 										<Link className="btn" to="/products">
@@ -118,16 +107,15 @@ export const IndexPageTemplate = ({ title, image, subtitle, mainpitch }) => {
 									</div>
 								</div> */}
 
-									<div className="column is-12">
-										<h3 className="has-text-weight-semibold is-size-2">
-											Latest stories
-										</h3>
-										<BlogRoll />
-										<div className="column is-12 has-text-centered">
-											<Link className="btn" to="/blog">
-												Read more <strong>→</strong>
-											</Link>
-										</div>
+								<div className="column is-12">
+									<h3 className="has-text-green has-text-weight-semibold is-size-2">
+										Latest stories
+									</h3>
+									<BlogRoll />
+									<div className="column is-12 has-text-centered">
+										<Link className="btn" to="/blog">
+											Read more <strong>→</strong>
+										</Link>
 									</div>
 								</div>
 							</div>
