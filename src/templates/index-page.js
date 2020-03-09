@@ -5,8 +5,15 @@ import { Link, graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Features from "../components/Features";
 import BlogRoll from "../components/BlogRoll";
+import ShamrockDiv from "../components/ShamrockDiv";
 
-export const IndexPageTemplate = ({ title, image, subtitle, mainpitch }) => {
+export const IndexPageTemplate = ({
+	title,
+	image,
+	subtitle,
+	mainpitch,
+	blurbs,
+}) => {
 	console.log(mainpitch.banner);
 
 	return (
@@ -72,27 +79,29 @@ export const IndexPageTemplate = ({ title, image, subtitle, mainpitch }) => {
 									<h3 className="title has-text-green has-text-weight-semibold is-size-2">
 										{mainpitch.heading1}
 									</h3>
-									<h4 className="title has-text-lighter-green has-text-weight-semibold is-size-3">
+									<h4 className="title has-text-green has-text-weight-semibold is-size-3">
 										{mainpitch.subheading1}
 									</h4>
 									<p className="has-text-dark-grey">{mainpitch.description1}</p>
 								</div>
 
+								<ShamrockDiv />
 								<div className="content">
 									<h3 className="title has-text-green has-text-weight-semibold is-size-2">
 										{mainpitch.heading2}
 									</h3>
-									<h4 className="title has-text-lighter-green has-text-weight-semibold is-size-3">
+									<h4 className="title has-text-green has-text-weight-semibold is-size-3">
 										{mainpitch.subheading2}
 									</h4>
 									<p className="has-text-dark-grey">{mainpitch.description2}</p>
 								</div>
 
+								<ShamrockDiv />
 								<div className="content">
 									<h3 className="title has-text-green has-text-weight-semibold is-size-2">
 										{mainpitch.heading3}
 									</h3>
-									<h4 className="title has-text-lighter-green has-text-weight-semibold is-size-3">
+									<h4 className="title has-text-green has-text-weight-semibold is-size-3">
 										{mainpitch.subheading3}
 									</h4>
 									<p className="has-text-dark-grey">{mainpitch.description3}</p>
@@ -174,6 +183,14 @@ export const pageQuery = graphql`
 				title
 				subtitle
 				image
+				blurbs {
+					heading
+					subheading
+					blurbs {
+						image
+						text
+					}
+				}
 				mainpitch {
 					banner
 					heading1
