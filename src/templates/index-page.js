@@ -7,6 +7,8 @@ import Features from "../components/Features";
 import BlogRoll from "../components/BlogRoll";
 import ShamrockDiv from "../components/ShamrockDiv";
 
+import truckIcon from "../img/truck-icon.png";
+
 export const IndexPageTemplate = ({
 	title,
 	image,
@@ -14,56 +16,17 @@ export const IndexPageTemplate = ({
 	mainpitch,
 	blurbs,
 }) => {
-	console.log(mainpitch.banner);
-
 	return (
 		<div>
 			<div
-				className="full-width-image main-hero margin-top-0"
+				className="full-width-image main-hero"
 				style={{
 					backgroundImage: `
 				linear-gradient(to right, rgb(0,128,0,0.4) 33%, rgb(255,255,255,0.4) 33% 66%, rgb(255,165,0,0.4) 66% 100%),
 				url(${!!image.childImageSharp ? image.childImageSharp.fluid.src : image})`,
-					backgroundPosition: `center center`,
 				}}
 			>
-				<div
-					style={{
-						display: "flex",
-						height: "150px",
-						lineHeight: "1",
-						justifyContent: "space-around",
-						alignItems: "left",
-						flexDirection: "column",
-					}}
-				>
-					<h1
-						className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
-						style={{
-							boxShadow:
-								"rgb(117, 183, 158) 0.5rem 0px 0px, rgb(117, 183, 158) -0.5rem 0px 0px",
-							backgroundColor: "rgb(117, 183, 158)",
-							color: "white",
-							lineHeight: "1",
-							padding: "0.4em",
-						}}
-					>
-						{title}
-					</h1>
-					<h3
-						className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
-						style={{
-							boxShadow:
-								"rgb(117, 183, 158) 0.5rem 0px 0px, rgb(117, 183, 158) -0.5rem 0px 0px",
-							backgroundColor: "rgb(117, 183, 158)",
-							color: "white",
-							lineHeight: "1",
-							padding: "0.35em",
-						}}
-					>
-						{subtitle}
-					</h3>
-				</div>
+				<div className="truck-div"></div>
 			</div>
 			<section className="section">
 				<div className="container">
@@ -107,14 +70,16 @@ export const IndexPageTemplate = ({
 									<p className="has-text-dark-grey">{mainpitch.description3}</p>
 								</div>
 
-								{/* <Features gridItems={intro.blurbs} />
+								<ShamrockDiv />
+								{/* <Features gridItems={blurbs.blurbs} /> */}
+
 								<div className="columns">
 									<div className="column is-12 has-text-centered">
 										<Link className="btn" to="/products">
 											See Pricing <strong>→</strong>
 										</Link>
 									</div>
-								</div> */}
+								</div>
 
 								<div className="column is-12">
 									<h3 className="has-text-green has-text-weight-semibold is-size-2">
@@ -160,7 +125,6 @@ const IndexPage = ({ data }) => {
 				subheading={frontmatter.subheading}
 				mainpitch={frontmatter.mainpitch}
 				description={frontmatter.description}
-				intro={frontmatter.intro}
 			/>
 		</Layout>
 	);
@@ -182,7 +146,13 @@ export const pageQuery = graphql`
 			frontmatter {
 				title
 				subtitle
-				image
+				image {
+					childImageSharp {
+						fluid(maxWidth: 2048, quality: 100) {
+							...GatsbyImageSharpFluid
+						}
+					}
+				}
 				blurbs {
 					heading
 					subheading

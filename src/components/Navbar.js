@@ -34,7 +34,7 @@ const Navbar = class extends React.Component {
 	render() {
 		return (
 			<nav
-				className="navbar is-success"
+				className="navbar is-success is-fixed-top"
 				role="navigation"
 				aria-label="main-navigation"
 			>
@@ -44,7 +44,7 @@ const Navbar = class extends React.Component {
 							<img
 								src={logo}
 								alt="Annie Haul"
-								style={{ height: "80px", width: "140px" }}
+								style={{ height: "100%", width: "140px" }}
 							/>
 						</Link>
 						{/* Hamburger menu */}

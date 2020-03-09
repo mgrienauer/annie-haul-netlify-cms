@@ -13,12 +13,9 @@ $black: #2b2523
 
 p
   font-size: 1.2em;
-    
 
-.navbar 
-  z-index: 100 !important
-  position: fixed !important
-  width: 100%
+.navbar
+  position: fixed !important 
 
 .navbar .navbar-menu
   box-shadow:none !important
@@ -59,7 +56,7 @@ p
     width: 100vw
     height: 70vh
     background-size: cover
-    background-position: center
+    background-position: center center
     display: flex
     justify-content: center
     align-items: center
@@ -95,7 +92,17 @@ p
 .shamrock-row 
   display: flex
   justify-content: space-evenly
-  margin: 1.5em 0
+  margin: 2em 0
+
+.truck-div
+  height: 400px
+  width: 700px
+  background-image: url('../img/truck-icon.png')
+  background-size: cover
+  background-position: center center
+  @media screen and (max-width: 768px)
+    height: 300px
+    width: 550px
 
 
 footer.footer
