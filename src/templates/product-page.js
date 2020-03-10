@@ -16,7 +16,7 @@ export const ProductPageTemplate = ({
 	pricing,
 }) => (
 	<div className="content">
-		<div
+		{/* <div
 			className="full-width-image-container margin-top-0"
 			style={{
 				backgroundImage: `url(${
@@ -64,7 +64,7 @@ export const ProductPageTemplate = ({
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> */}
 	</div>
 );
 
