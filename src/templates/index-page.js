@@ -16,7 +16,7 @@ export const IndexPageTemplate = ({
 	blurbs,
 	carouselImgs,
 }) => {
-	console.log(carouselImgs);
+	console.log(blurbs);
 	return (
 		<div>
 			<div
@@ -76,7 +76,7 @@ export const IndexPageTemplate = ({
 								</div>
 
 								<ShamrockDiv />
-								{/* <Features gridItems={blurbs.blurbs} /> */}
+								<Features gridItems={blurbs} />
 
 								<div className="columns">
 									<div className="column is-12 has-text-centered">
@@ -113,9 +113,6 @@ IndexPageTemplate.propTypes = {
 	subheading: PropTypes.string,
 	mainpitch: PropTypes.object,
 	description: PropTypes.string,
-	intro: PropTypes.shape({
-		blurbs: PropTypes.array,
-	}),
 };
 
 const IndexPage = ({ data }) => {
@@ -127,6 +124,7 @@ const IndexPage = ({ data }) => {
 				image={frontmatter.image}
 				title={frontmatter.title}
 				heading={frontmatter.heading}
+				blurbs={frontmatter.blurbs}
 				subheading={frontmatter.subheading}
 				mainpitch={frontmatter.mainpitch}
 				description={frontmatter.description}
