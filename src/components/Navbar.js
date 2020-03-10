@@ -34,7 +34,7 @@ const Navbar = class extends React.Component {
 	render() {
 		return (
 			<nav
-				className="navbar is-success"
+				className="navbar is-success is-fixed-top"
 				role="navigation"
 				aria-label="main-navigation"
 			>
@@ -44,12 +44,12 @@ const Navbar = class extends React.Component {
 							<img
 								src={logo}
 								alt="Annie Haul"
-								style={{ height: "80px", width: "140px" }}
+								style={{ height: "100%", width: "140px" }}
 							/>
 						</Link>
 						{/* Hamburger menu */}
 						<div
-							className={`navbar-burger burger is-success ${this.state.navBarActiveClass}`}
+							className={`navbar-burger burger ${this.state.navBarActiveClass}`}
 							data-target="navMenu"
 							onClick={() => this.toggleHamburger()}
 						>
@@ -60,7 +60,7 @@ const Navbar = class extends React.Component {
 					</div>
 					<div
 						id="navMenu"
-						className={`navbar-menu ${this.state.navBarActiveClass}`}
+						className={`has-background-success navbar-menu ${this.state.navBarActiveClass}`}
 					>
 						<div className="navbar-start has-text-centered">
 							<Link className="navbar-item" to="/">

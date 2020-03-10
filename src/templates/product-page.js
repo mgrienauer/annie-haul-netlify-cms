@@ -127,29 +127,10 @@ export const productPageQuery = graphql`
 		markdownRemark(id: { eq: $id }) {
 			frontmatter {
 				title
-				image {
-					childImageSharp {
-						fluid(maxWidth: 2048, quality: 100) {
-							...GatsbyImageSharpFluid
-						}
-					}
-				}
+
 				heading
 				description
-				intro {
-					blurbs {
-						image {
-							childImageSharp {
-								fluid(maxWidth: 240, quality: 64) {
-									...GatsbyImageSharpFluid
-								}
-							}
-						}
-						text
-					}
-					heading
-					description
-				}
+
 				main {
 					heading
 					description
@@ -209,3 +190,19 @@ export const productPageQuery = graphql`
 		}
 	}
 `;
+
+//blurb query need to redo
+// intro {
+// 	blurbs {
+// 		image {
+// 			childImageSharp {
+// 				fluid(maxWidth: 240, quality: 64) {
+// 					...GatsbyImageSharpFluid
+// 				}
+// 			}
+// 		}
+// 		text
+// 	}
+// 	heading
+// 	description
+// }

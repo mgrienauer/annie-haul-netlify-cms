@@ -7,22 +7,26 @@ $kaldi-red-invert: #fff
 $annie-green: #75b79e
 
 $primary: $annie-green
+$success-green: #48c774
 $primary-invert: $kaldi-red-invert
 $body-color: #333
 $black: #2b2523
 
-
 p
   font-size: 1.2em;
-    
 
-.navbar 
-  z-index: 100 !important
-  position: fixed !important
-  width: 100%
+.navbar
+  position: fixed !important 
 
 .navbar .navbar-menu
-  box-shadow:none !important
+  box-shadow: 0 8px 6px -6px black
+
+.navbar .navbar-item 
+  color: #FFF
+  &:hover
+    background-color: #63c786
+    color: #FFFFFF !important
+
 
 .content .taglist
   list-style: none
@@ -60,7 +64,7 @@ p
     width: 100vw
     height: 70vh
     background-size: cover
-    background-position: center
+    background-position: center center
     display: flex
     justify-content: center
     align-items: center
@@ -93,9 +97,34 @@ p
   height: 1.5rem
   fill: currentColor
 
+.shamrock-row 
+  display: flex
+  justify-content: space-evenly
+  margin: 2em 0
+
+.truck-div
+  height: 400px
+  width: 700px
+  background-image: url('../img/truck-icon.png')
+  background-size: cover
+  background-position: center center
+  @media screen and (max-width: 768px)
+    height: 300px
+    width: 550px
+
+
 footer.footer
   padding: 3rem 0rem 0rem
   background-color: transparent
+
+.has-text-annie-green 
+  color: #75b79e !important 
+
+.has-text-green
+  color: #388E3C !important
+
+.has-text-lighter-green 
+  color: #4CAF50 !important
 
 //Menu overrides
 $menu-item-color: $white-ter
