@@ -38,6 +38,18 @@ const TemplateWrapper = ({ children }) => {
 					href={`${withPrefix("/")}img/safari-pinned-tab.svg`}
 					color="#ff4400"
 				/>
+
+				<link
+					rel="stylesheet"
+					type="text/css"
+					charset="UTF-8"
+					href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
+				/>
+				<link
+					rel="stylesheet"
+					type="text/css"
+					href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
+				/>
 				<meta name="theme-color" content="#fff" />
 
 				<meta property="og:type" content="business.business" />

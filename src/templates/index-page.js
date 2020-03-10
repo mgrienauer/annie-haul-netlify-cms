@@ -6,6 +6,7 @@ import Layout from "../components/Layout";
 import Features from "../components/Features";
 import BlogRoll from "../components/BlogRoll";
 import ShamrockDiv from "../components/ShamrockDiv";
+import Carousel from "../components/Carousel";
 
 export const IndexPageTemplate = ({
 	title,
@@ -13,7 +14,9 @@ export const IndexPageTemplate = ({
 	subtitle,
 	mainpitch,
 	blurbs,
+	carouselImgs,
 }) => {
+	console.log(carouselImgs);
 	return (
 		<div>
 			<div
@@ -55,6 +58,10 @@ export const IndexPageTemplate = ({
 										{mainpitch.subheading2}
 									</h4>
 									<p className="has-text-dark-grey">{mainpitch.description2}</p>
+								</div>
+
+								<div className="carousel-container">
+									<Carousel imgs={carouselImgs} />
 								</div>
 
 								<ShamrockDiv />
@@ -123,6 +130,7 @@ const IndexPage = ({ data }) => {
 				subheading={frontmatter.subheading}
 				mainpitch={frontmatter.mainpitch}
 				description={frontmatter.description}
+				carouselImgs={frontmatter.carouselImgs}
 			/>
 		</Layout>
 	);
@@ -150,6 +158,9 @@ export const pageQuery = graphql`
 							...GatsbyImageSharpFluid
 						}
 					}
+				}
+				carouselImgs {
+					image
 				}
 				blurbs {
 					heading

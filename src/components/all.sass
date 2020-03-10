@@ -19,7 +19,9 @@ p
   position: fixed !important 
 
 .navbar .navbar-menu
-  box-shadow: 0 8px 6px -6px black
+  @media screen and (max-width: 1023px)
+    box-shadow: 0 8px 6px -6px black
+  
 
 .navbar .navbar-item 
   color: #FFF
@@ -111,6 +113,25 @@ p
   @media screen and (max-width: 768px)
     height: 300px
     width: 550px
+
+.carousel-container
+  margin: 3em auto
+  ul 
+    margin: 0  !important
+.carousel-slide
+  height: 350px
+  width: 100%
+  max-width: 600px
+  margin: 0 auto
+  display: block
+  border-radius: 7px
+.carousel-img 
+  height: 350px
+  width: 100%
+  object-fit: cover
+  object-position: center center
+  border-radius: 7px
+
 
 
 footer.footer
