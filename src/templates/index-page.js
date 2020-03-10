@@ -7,8 +7,6 @@ import Features from "../components/Features";
 import BlogRoll from "../components/BlogRoll";
 import ShamrockDiv from "../components/ShamrockDiv";
 
-import truckIcon from "../img/truck-icon.png";
-
 export const IndexPageTemplate = ({
 	title,
 	image,

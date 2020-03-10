@@ -7,6 +7,7 @@ $kaldi-red-invert: #fff
 $annie-green: #75b79e
 
 $primary: $annie-green
+$success-green: #48c774
 $primary-invert: $kaldi-red-invert
 $body-color: #333
 $black: #2b2523
@@ -18,7 +19,14 @@ p
   position: fixed !important 
 
 .navbar .navbar-menu
-  box-shadow:none !important
+  box-shadow: 0 8px 6px -6px black
+
+.navbar .navbar-item 
+  color: #FFF
+  &:hover
+    background-color: #63c786
+    color: #FFFFFF !important
+
 
 .content .taglist
   list-style: none

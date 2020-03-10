@@ -60,7 +60,7 @@ const Navbar = class extends React.Component {
 					</div>
 					<div
 						id="navMenu"
-						className={`is-success navbar-menu ${this.state.navBarActiveClass}`}
+						className={`has-background-success navbar-menu ${this.state.navBarActiveClass}`}
 					>
 						<div className="navbar-start has-text-centered">
 							<Link className="navbar-item" to="/">
