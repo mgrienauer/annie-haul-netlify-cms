@@ -4,6 +4,7 @@ import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Pricing from "../components/Pricing";
 import ShamrockDiv from "../components/ShamrockDiv";
+import Testimonials from "../components/Testimonials";
 
 export const PricingPageTemplate = ({
 	image,
@@ -12,7 +13,7 @@ export const PricingPageTemplate = ({
 	pricing,
 	reviews,
 }) => {
-	console.log(image);
+	console.log(reviews);
 	return (
 		<div className="content">
 			<div
@@ -46,7 +47,9 @@ export const PricingPageTemplate = ({
 							<h4 className="has-text-weight-semibold has-text-green is-size-3">
 								Largest Hauling Trucks in Portland
 							</h4>
-							<Pricing data={pricing.plans} />
+							<div className="section">
+								<Pricing data={pricing.plans} />
+							</div>
 
 							<ShamrockDiv />
 							<div className="content">
@@ -62,6 +65,14 @@ export const PricingPageTemplate = ({
 									{main.heading2}
 								</h3>
 								<p className="has-text-dark-grey">{main.description2}</p>
+							</div>
+
+							<ShamrockDiv />
+							<div className="content">
+								<h3 className="has-text-weight-semibold has-text-green is-size-2">
+									{reviews.heading}
+								</h3>
+								<Testimonials testimonials={reviews.reviews} />
 							</div>
 						</div>
 					</div>

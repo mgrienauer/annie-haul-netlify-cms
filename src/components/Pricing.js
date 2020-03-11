@@ -8,7 +8,7 @@ const Pricing = ({ data }) => (
 				<h3 className="has-text-centered has-text-weight-semibold">
 					{price.plan}
 				</h3>
-				<h3 className=" has-text-weight-bold has-text-primary has-text-centered">
+				<h3 className=" has-text-weight-bold has-text-green has-text-centered">
 					${price.price}
 				</h3>
 			</div>
