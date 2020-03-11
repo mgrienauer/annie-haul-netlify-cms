@@ -16,7 +16,6 @@ export const IndexPageTemplate = ({
 	blurbs,
 	carouselImgs,
 }) => {
-	console.log(blurbs);
 	return (
 		<div>
 			<div
@@ -157,6 +156,7 @@ export const pageQuery = graphql`
 						}
 					}
 				}
+
 				carouselImgs {
 					image
 				}
