@@ -108,6 +108,7 @@ collections:
             }
           - { label: Title, name: title, widget: string }
           - { label: Image, name: image, widget: image }
+
           - {
               label: Pricing,
               name: pricing,
@@ -128,6 +129,7 @@ collections:
                   },
                 ],
             }
+
           - {
               label: Main,
               name: main,
@@ -140,9 +142,10 @@ collections:
                   { label: Description 2, name: description2, widget: text },
                 ],
             }
+
           - {
-              label: Pricing,
-              name: pricing,
+              label: Reviews,
+              name: reviews,
               widget: object,
               fields:
                 [
