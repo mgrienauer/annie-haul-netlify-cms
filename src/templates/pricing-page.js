@@ -123,68 +123,12 @@ PricingPage.propTypes = {
 export default PricingPage;
 
 export const pricingPageQuery = graphql`
-	query PricingPage($id: String!) {
-		markdownRemark(id: { eq: $id }) {
+	query PricingPageTemplate {
+		markdownRemark(frontmatter: { templateKey: { eq: "pricing-page" } }) {
 			frontmatter {
 				title
-
-				heading
-				description
-
-				main {
-					heading
-					description
-					image1 {
-						alt
-						image {
-							childImageSharp {
-								fluid(maxWidth: 526, quality: 92) {
-									...GatsbyImageSharpFluid
-								}
-							}
-						}
-					}
-					image2 {
-						alt
-						image {
-							childImageSharp {
-								fluid(maxWidth: 526, quality: 92) {
-									...GatsbyImageSharpFluid
-								}
-							}
-						}
-					}
-					image3 {
-						alt
-						image {
-							childImageSharp {
-								fluid(maxWidth: 1075, quality: 72) {
-									...GatsbyImageSharpFluid
-								}
-							}
-						}
-					}
-				}
-				testimonials {
-					author
-					quote
-				}
-				full_image {
-					childImageSharp {
-						fluid(maxWidth: 2048, quality: 100) {
-							...GatsbyImageSharpFluid
-						}
-					}
-				}
 				pricing {
 					heading
-					description
-					plans {
-						description
-						items
-						plan
-						price
-					}
 				}
 			}
 		}
