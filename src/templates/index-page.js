@@ -22,7 +22,7 @@ export const IndexPageTemplate = ({
 				className="full-width-image main-hero margin-top-0"
 				style={{
 					backgroundImage: `
-				linear-gradient(to right, rgb(0,128,0,0.4) 33%, rgb(255,255,255,0.4) 33% 66%, rgb(255,165,0,0.4) 66% 100%),
+				linear-gradient(to right, rgb(0,128,0,0.9) 33%, rgb(255,255,255,0.9) 33% 66%, rgb(255,165,0,0.9) 66% 100%),
 				url(${!!image.childImageSharp ? image.childImageSharp.fluid.src : image})`,
 				}}
 			>
@@ -151,13 +151,7 @@ export const pageQuery = graphql`
 			frontmatter {
 				title
 				subtitle
-				image {
-					childImageSharp {
-						fluid(maxWidth: 2048, quality: 100) {
-							...GatsbyImageSharpFluid
-						}
-					}
-				}
+				image
 
 				carouselImgs {
 					image
