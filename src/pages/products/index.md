@@ -2,28 +2,47 @@
 templateKey: pricing-page
 title: Our Pricing
 image: /img/portland skyline.jpg
-heading: Junk Hauling Rates
-description: >-
-  We price our jobs by volume and weight and type of access to your items. Our
-  ESTIMATES are always a GUIDELINE. Dump fees have increased at METRO.  We will
-  give you a firm price on site once we have seen the items to be removed. If
-  you have less, we will gladly adjust. Hazmat fees of $25 or more may be added
-  depending on quantities.
-intro:
-  blurbs: []
-  heading: What we offer
-  description: >
-    Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone. This is an edit via identity...
-main:
-  heading: Other Hauling Rate Info
-  description: >
-    Minimum Call Out Charge for small amounts:
-      $80-100. Inner Portland Only (sorry no discounts on minimum hauls) $35.00 fee added for large furniture.
+pricing:
+  heading: Customer Reviews
+  reviews:
+    - author: Jeannine R.
+      text: >-
+        “Even better, they donate what they can to charities and recycle what
+        can be, so little ends up in the landfill.”
+      url: >-
+        https://www.yelp.com/biz/annie-haul-portland?hrid=70w2Ge2ePanWaJ2BjKVPLQ&rh_ident=landfill&rh_type=phrase
+    - author: Chris B.
+      text: >-
+        "We found Annie Haul on Yelp. They turned out to be an excellent choice!
+        Everybody was respectful, sensitive to our needs, and flexible.
 
-    Our Trucks:   WE PACK them, so you get the best value.
+        Our project was a difficult one, and Annie Haul made it go so much
+        better than it could have gone.
+
+        I will be calling them again, soon!"
+      url: >-
+        https://www.yelp.com/biz/annie-haul-portland?hrid=70w2Ge2ePanWaJ2BjKVPLQ&rh_ident=landfill&rh_type=phrase
+    - author: Corbett O.
+      text: >-
+        I used Annie Haul yesterday and they were awesome. They worked with me
+        to ensure I was comfortable with the overall cost and were so friendly
+        through the entire experience. Henry and Emily were great and
+        accommodating and I would definitely use them again and I highly
+        recommend them. There were going to ensure they could donate as much as
+        they could too.
+      url: >-
+        https://www.yelp.com/biz/annie-haul-portland?hrid=70w2Ge2ePanWaJ2BjKVPLQ&rh_ident=landfill&rh_type=phrase
+main:
+  description1: >-
+    We price our jobs by volume and weight and type of access to your items. Our
+    ESTIMATES are always a GUIDELINE. Dump fees have increased at METRO.  We
+    will give you a firm price on site once we have seen the items to be
+    removed. If you have less, we will gladly adjust. Hazmat fees of $25 or more
+    may be added depending on quantities.
+  description2: >-
+    $80-100. Inner Portland Only (sorry no discounts on minimum hauls) $35.00
+    fee added for large furniture.
+
 
     We operate the largest hauling trucks in Portland-- 16' ft box trucks,
     fitted with a lift gate so we get jobs done safer and faster. Our trucks
@@ -31,61 +50,7 @@ main:
     trucks.  We say NO to DUMP trucks in order to protect items which may be
     donated to local non-profits, or carefully recycled.  Our rates are still
     better and competitive with large franchised hauling firms.
-  image1:
-    alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products-grid3.jpg
-  image2:
-    alt: A green cup of a coffee on a wooden table
-    image: /img/products-grid2.jpg
-  image3:
-    alt: Coffee beans
-    image: /img/products-grid1.jpg
-testimonials:
-  - author: Elisabeth Kaurismäki
-    quote: >-
-      The first time I tried Kaldi’s coffee, I couldn’t even believe that was
-      the same thing I’ve been drinking every morning.
-  - author: Philipp Trommler
-    quote: >-
-      Kaldi is the place to go if you want the best quality coffee. I love their
-      stance on empowering farmers and transparency.
-full_image: /img/products-full-width.jpg
-pricing:
-  heading: Pricing (by truckload)
-  description: >-
-    We make it easy to make great coffee a part of your life. Choose one of our
-    monthly subscription plans to receive great coffee at your doorstep each
-    month. Contact us about more details and payment info.
-  plans:
-    - description: Perfect for the drinker who likes to enjoy 1-2 cups per day.
-      items:
-        - 3 lbs of coffee per month
-        - Green or roasted beans"
-        - One or two varieties of beans"
-      plan: "1/4 "
-      price: 250-375
-    - description: "Great for avid drinkers, java-loving couples and bigger crowds"
-      items:
-        - 6 lbs of coffee per month
-        - Green or roasted beans
-        - Up to 4 different varieties of beans
-      plan: "1/3 "
-      price: 375-525
-    - description: Want a few tiny batches from different varieties? Try our custom plan
-      items:
-        - Whatever you need
-        - Green or roasted beans
-        - Unlimited varieties
-      plan: 1/2
-      price: 575-750
-    - description: dsfsdfdsf
-      items:
-        - sdfsdfsdfdsf
-      plan: "3/4 "
-      price: 850-1000
-    - description: A complete tuckload
-      items:
-        - sdsfdsf
-      plan: "Full "
-      price: 1200-1400
+  heading1: Junk Hauling Rates
+  heading2: Other Hauling Rate Info
 ---
+
