@@ -2,7 +2,7 @@
 
 // Config vars
 // Kaldi logo brand color: #FD461E
-$kaldi-red: #D64000
+$kaldi-red: #48c774
 $kaldi-red-invert: #fff
 $annie-green: #75b79e
 
@@ -21,13 +21,27 @@ p
 .navbar .navbar-menu
   @media screen and (max-width: 1023px)
     box-shadow: 0 8px 6px -6px black
+
+.navbar .navbar-brand
+  padding: none !important
   
+.navbar-logo
+  filter: invert(76%) sepia(100%) saturate(3199%) hue-rotate(347deg) brightness(97%) contrast(108%)
+  height: 100%
+  width: 50px
 
 .navbar .navbar-item 
   color: #FFF
   &:hover
     background-color: #63c786
     color: #FFFFFF !important
+
+.footer-logo
+  width: 50vw
+  height: 20vh
+  @media screen and (max-width: 769px)
+    width: 90vw
+
 
 
 .content .taglist
