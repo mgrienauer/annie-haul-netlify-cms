@@ -4,19 +4,9 @@ import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Pricing from "../components/Pricing";
 
-export const PricingPageTemplate = ({
-	image,
-	title,
-	heading,
-	description,
-	intro,
-	main,
-
-	fullImage,
-	pricing,
-}) => (
+export const PricingPageTemplate = ({ image, title, main, pricing }) => (
 	<div className="content">
-		{/* <div
+		<div
 			className="full-width-image-container margin-top-0"
 			style={{
 				backgroundImage: `url(${
@@ -41,56 +31,17 @@ export const PricingPageTemplate = ({
 				<div className="section">
 					<div className="columns">
 						<div className="column is-12">
-							<h3 className="has-text-weight-semibold is-size-2">{heading}</h3>
-							<p>{description}</p>
-						</div>
-					</div>
-					<div className="columns">
-						<div className="column is-12">
-							<div className="columns">
-								<div className="column is-12">
-									<h3 className="has-text-weight-semibold is-size-3">
-										{main.heading}
-									</h3>
-									<p>{main.description}</p>
-								</div>
-							</div>
-							<h2 className="has-text-weight-semibold is-size-2">
+							<h3 className="has-text-weight-semibold is-size-2">
 								{pricing.heading}
-							</h2>
-							<p className="is-size-5">{pricing.description}</p>
-							<Pricing data={pricing.plans} />
+							</h3>
+							{/* <Pricing data={pricing.plans} /> */}
 						</div>
 					</div>
 				</div>
 			</div>
-		</section> */}
+		</section>
 	</div>
 );
-
-PricingPageTemplate.propTypes = {
-	image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-	title: PropTypes.string,
-	heading: PropTypes.string,
-	description: PropTypes.string,
-	intro: PropTypes.shape({
-		blurbs: PropTypes.array,
-	}),
-	main: PropTypes.shape({
-		heading: PropTypes.string,
-		description: PropTypes.string,
-		image1: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-		image2: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-		image3: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-	}),
-	testimonials: PropTypes.array,
-	fullImage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-	pricing: PropTypes.shape({
-		heading: PropTypes.string,
-		description: PropTypes.string,
-		plans: PropTypes.array,
-	}),
-};
 
 const PricingPage = ({ data }) => {
 	const { frontmatter } = data.markdownRemark;
@@ -100,12 +51,7 @@ const PricingPage = ({ data }) => {
 			<PricingPageTemplate
 				image={frontmatter.image}
 				title={frontmatter.title}
-				heading={frontmatter.heading}
-				description={frontmatter.description}
-				intro={frontmatter.intro}
 				main={frontmatter.main}
-				testimonials={frontmatter.testimonials}
-				fullImage={frontmatter.full_image}
 				pricing={frontmatter.pricing}
 			/>
 		</Layout>
@@ -127,8 +73,22 @@ export const pricingPageQuery = graphql`
 		markdownRemark(frontmatter: { templateKey: { eq: "pricing-page" } }) {
 			frontmatter {
 				title
+				image {
+					publicURL
+				}
+				main {
+					heading1
+					heading2
+					description1
+					description2
+				}
 				pricing {
 					heading
+					reviews {
+						text
+						author
+						url
+					}
 				}
 			}
 		}
