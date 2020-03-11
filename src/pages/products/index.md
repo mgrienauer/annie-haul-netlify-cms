@@ -1,5 +1,5 @@
 ---
-templateKey: product-page
+templateKey: pricing-page
 title: Our Pricing
 image: /img/portland skyline.jpg
 heading: Junk Hauling Rates
@@ -62,14 +62,14 @@ pricing:
         - 3 lbs of coffee per month
         - Green or roasted beans"
         - One or two varieties of beans"
-      plan: '1/4 '
+      plan: "1/4 "
       price: 250-375
-    - description: 'Great for avid drinkers, java-loving couples and bigger crowds'
+    - description: "Great for avid drinkers, java-loving couples and bigger crowds"
       items:
         - 6 lbs of coffee per month
         - Green or roasted beans
         - Up to 4 different varieties of beans
-      plan: '1/3 '
+      plan: "1/3 "
       price: 375-525
     - description: Want a few tiny batches from different varieties? Try our custom plan
       items:
@@ -81,12 +81,11 @@ pricing:
     - description: dsfsdfdsf
       items:
         - sdfsdfsdfdsf
-      plan: '3/4 '
+      plan: "3/4 "
       price: 850-1000
     - description: A complete tuckload
       items:
         - sdsfdsf
-      plan: 'Full '
+      plan: "Full "
       price: 1200-1400
 ---
-
