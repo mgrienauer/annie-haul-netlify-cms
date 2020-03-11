@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Pricing from "../components/Pricing";
+import ShamrockDiv from "../components/ShamrockDiv";
 
 export const PricingPageTemplate = ({
 	image,
@@ -34,19 +35,38 @@ export const PricingPageTemplate = ({
 					{title}
 				</h2>
 			</div>
-			<div className="container">
-				<div className="columns">
-					<div className="column is-12">
-						<h3 className="has-text-weight-semibold has-text-green is-size-2">
-							{pricing.heading}
-						</h3>
-						<h4 className="has-text-weight-semibold has-text-green is-size-3">
-							Largest Hauling Trucks in Portland
-						</h4>
-						<Pricing data={pricing.plans} />
+
+			<section class="section">
+				<div className="container">
+					<div className="columns">
+						<div className="column is-10 is-offset-1">
+							<h3 className="has-text-weight-semibold has-text-green is-size-2">
+								{pricing.heading}
+							</h3>
+							<h4 className="has-text-weight-semibold has-text-green is-size-3">
+								Largest Hauling Trucks in Portland
+							</h4>
+							<Pricing data={pricing.plans} />
+
+							<ShamrockDiv />
+							<div className="content">
+								<h3 className="has-text-weight-semibold has-text-green is-size-2">
+									{main.heading1}
+								</h3>
+								<p className="has-text-dark-grey">{main.description1}</p>
+							</div>
+
+							<ShamrockDiv />
+							<div className="content">
+								<h3 className="has-text-weight-semibold has-text-green is-size-2">
+									{main.heading2}
+								</h3>
+								<p className="has-text-dark-grey">{main.description2}</p>
+							</div>
+						</div>
 					</div>
 				</div>
-			</div>
+			</section>
 		</div>
 	);
 };
