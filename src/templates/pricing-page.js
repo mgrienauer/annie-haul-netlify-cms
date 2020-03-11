@@ -24,17 +24,17 @@ export const PricingPageTemplate = ({
 					})`,
 				}}
 			>
-				<h2
+				<h1
 					className="has-text-weight-bold is-size-1"
 					style={{
-						boxShadow: "0.5rem 0 0 #75b79e, -0.5rem 0 0 #75b79e",
-						backgroundColor: "#75b79e",
+						boxShadow: "0.5rem 0 0 #48c774, -0.5rem 0 0 #48c774",
+						backgroundColor: "#48c774",
 						color: "white",
-						padding: "1rem",
+						padding: "1.3rem",
 					}}
 				>
 					{title}
-				</h2>
+				</h1>
 			</div>
 
 			<section class="section">

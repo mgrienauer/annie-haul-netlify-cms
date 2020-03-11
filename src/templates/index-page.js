@@ -19,7 +19,7 @@ export const IndexPageTemplate = ({
 	return (
 		<div>
 			<div
-				className="full-width-image main-hero"
+				className="full-width-image main-hero margin-top-0"
 				style={{
 					backgroundImage: `
 				linear-gradient(to right, rgb(0,128,0,0.4) 33%, rgb(255,255,255,0.4) 33% 66%, rgb(255,165,0,0.4) 66% 100%),
@@ -77,11 +77,13 @@ export const IndexPageTemplate = ({
 								<ShamrockDiv />
 								<Features gridItems={blurbs} />
 
-								<div className="columns">
-									<div className="column is-12 has-text-centered">
-										<Link className="btn" to="/products">
-											See Pricing <strong>→</strong>
-										</Link>
+								<div className="section">
+									<div className="columns">
+										<div className="column is-12 has-text-centered">
+											<Link className="btn big-btn" to="/products">
+												See Pricing <strong>→</strong>
+											</Link>
+										</div>
 									</div>
 								</div>
 
