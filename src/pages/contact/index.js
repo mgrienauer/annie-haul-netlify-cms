@@ -1,6 +1,7 @@
 import React from "react";
 import { navigate } from "gatsby-link";
 import Layout from "../../components/Layout";
+import Map from "../../components/Map";
 
 import facebook from "../../img/social/facebook.svg";
 import instagram from "../../img/social/instagram.svg";
@@ -194,6 +195,15 @@ export default class Index extends React.Component {
 											/>
 										</a>
 									</div>
+
+									<h3 className="has-text-weight-semibold has-text-green is-size-2">
+										Our Location
+									</h3>
+									<h4 className="has-text-green is-size-4">
+										Located in NE Portland and serving the greater Portland
+										Area.
+									</h4>
+									<Map />
 								</div>
 							</div>
 						</div>
