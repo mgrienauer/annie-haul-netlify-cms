@@ -38,7 +38,7 @@ export const PricingPageTemplate = ({
 			</div>
 
 			<section class="section">
-				<div className="container">
+				<div className="container is-8">
 					<div className="columns">
 						<div className="column is-10 is-offset-1">
 							<h3 className="has-text-weight-semibold has-text-green is-size-2">
@@ -113,7 +113,13 @@ export const pricingPageQuery = graphql`
 		markdownRemark(frontmatter: { templateKey: { eq: "pricing-page" } }) {
 			frontmatter {
 				title
-				image
+				image {
+					childImageSharp {
+						fluid(maxWidth: 2048, quality: 100) {
+							...GatsbyImageSharpFluid
+						}
+					}
+				}
 				main {
 					heading1
 					heading2

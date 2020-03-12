@@ -64,7 +64,7 @@ const Footer = class extends React.Component {
 									<img
 										src={facebook}
 										alt="Facebook"
-										style={{ width: "1em", height: "1em" }}
+										style={{ width: "2em", height: "2em" }}
 									/>
 								</a>
 								<a title="twitter" href="https://twitter.com">
@@ -72,21 +72,21 @@ const Footer = class extends React.Component {
 										className="fas fa-lg"
 										src={twitter}
 										alt="Twitter"
-										style={{ width: "1em", height: "1em" }}
+										style={{ width: "2em", height: "2em" }}
 									/>
 								</a>
 								<a title="instagram" href="https://instagram.com">
 									<img
 										src={instagram}
 										alt="Instagram"
-										style={{ width: "1em", height: "1em" }}
+										style={{ width: "2em", height: "2em" }}
 									/>
 								</a>
 								<a title="vimeo" href="https://vimeo.com">
 									<img
 										src={vimeo}
 										alt="Vimeo"
-										style={{ width: "1em", height: "1em" }}
+										style={{ width: "2em", height: "2em" }}
 									/>
 								</a>
 							</div>
