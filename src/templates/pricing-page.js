@@ -113,7 +113,13 @@ export const pricingPageQuery = graphql`
 		markdownRemark(frontmatter: { templateKey: { eq: "pricing-page" } }) {
 			frontmatter {
 				title
-				image
+				image {
+					childImageSharp {
+						fluid(maxWidth: 2048, quality: 100) {
+							...GatsbyImageSharpFluid
+						}
+					}
+				}
 				main {
 					heading1
 					heading2
