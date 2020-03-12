@@ -38,7 +38,7 @@ export const PricingPageTemplate = ({
 			</div>
 
 			<section class="section">
-				<div className="container">
+				<div className="container is-8">
 					<div className="columns">
 						<div className="column is-10 is-offset-1">
 							<h3 className="has-text-weight-semibold has-text-green is-size-2">
@@ -120,7 +120,6 @@ export const pricingPageQuery = graphql`
 						}
 					}
 				}
-
 				main {
 					heading1
 					heading2
