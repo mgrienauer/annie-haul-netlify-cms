@@ -1,6 +1,6 @@
 module.exports = {
 	siteMetadata: {
-		title: "Gatsby + Netlify CMS Starter",
+		title: "Annie Haul Portland",
 		description:
 			"This is the website for Annie Haul, a Portland-based junk hauling company.",
 	},

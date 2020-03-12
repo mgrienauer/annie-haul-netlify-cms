@@ -1,18 +1,19 @@
 import React from "react";
 import { Link } from "gatsby";
 
-import logo from "../img/footer-logo.png";
 import facebook from "../img/social/facebook.svg";
 import instagram from "../img/social/instagram.svg";
 import twitter from "../img/social/twitter.svg";
 import vimeo from "../img/social/vimeo.svg";
+
+const footerlogo = "../img/footer-logo.png";
 
 const Footer = class extends React.Component {
 	render() {
 		return (
 			<footer className="footer has-background-success has-text-white-ter">
 				<div className="content has-text-centered">
-					<img src={logo} alt="Annie Haul" className="footer-logo" />
+					<img src={footerlogo} alt="Annie Haul" className="footer-logo" />
 				</div>
 				<div className="content has-text-centered has-background-success has-text-white-ter">
 					<div className="container has-background-success has-text-white-ter">
