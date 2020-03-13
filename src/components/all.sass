@@ -1,5 +1,10 @@
 @import "~bulma/sass/utilities/initial-variables"
 
+html, body
+  padding: none !important
+  margin: none !important
+  overflow: hidden
+
 // Config vars
 // Kaldi logo brand color: #FD461E
 $kaldi-red: #48c774
@@ -17,6 +22,7 @@ p
 
 .navbar
   position: fixed !important 
+  max-width: 100vw !important
 
 .navbar .navbar-menu
   @media screen and (max-width: 1023px)
@@ -61,26 +67,40 @@ p
 
 // Helper Classes
 .full-width-image-container
-  width: 100vw
+  width: 100%
   height: 60vh
   position: relative
-  left: 50%
-  right: 50%
-  margin: 2em -50vw
+  left: 0
+  top: 0
   background-size: cover
   background-position: center
   display: flex
   justify-content: center
   align-items: center
+  h1
+    box-shadow: 0.5rem 0 0 #48c774, -0.5rem 0 0 #48c774
+    background-color: #48c774
+    color: white
+    padding: 1.3rem
+  @media screen and (max-width: 768px)
+    height: 50vh
+    h1
+      box-shadow: 0.3rem 0 0 #48c774, -0.3rem 0 0 #48c774
+      padding: 1rem
+      font-size: 2.7rem !important
+
+
+
 
 .full-width-image
-    width: 100vw
-    height: 70vh
+    width: 100%
+    height: 100%
     background-size: cover
     background-position: center center
     display: flex
     justify-content: center
     align-items: center
+    
 
 .btn
     display: inline-block

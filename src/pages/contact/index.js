@@ -47,17 +47,7 @@ export default class Index extends React.Component {
 						backgroundImage: `url('/img/blog-index.jpg')`,
 					}}
 				>
-					<h1
-						className="has-text-weight-bold is-size-1"
-						style={{
-							boxShadow: "0.5rem 0 0 #48c774, -0.5rem 0 0 #48c774",
-							backgroundColor: "#48c774",
-							color: "white",
-							padding: "1.3rem",
-						}}
-					>
-						Contact Us
-					</h1>
+					<h1 className="has-text-weight-bold is-size-1">Contact Us</h1>
 				</div>
 				<section className="section">
 					<div className="container">
