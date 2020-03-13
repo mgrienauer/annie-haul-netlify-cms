@@ -57,9 +57,17 @@ export default class Index extends React.Component {
 									<h3 className="has-text-weight-semibold has-text-green is-size-2">
 										Contact Us
 									</h3>
+									<h4 className="has-text-green has-text-weight-bold is-size-4">
+										Call Us At: 503-477-4941
+									</h4>
+									<h4 className="has-text-green has-text-weight-bold is-size-4">
+										Email Us At: kateanniehaulpdx@gmail.com
+									</h4>
+
+									<br />
 									<h4 className="has-text-green is-size-4">
-										Write us a short message with your name, email, and phone
-										number and we will get back to you as soon as we can.
+										Or, write us a short message with your name, email, and
+										phone number and we will get back to you as soon as we can.
 									</h4>
 									<form
 										name="contact"
