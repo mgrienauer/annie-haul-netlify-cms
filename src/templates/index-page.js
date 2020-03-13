@@ -16,17 +16,19 @@ export const IndexPageTemplate = ({
 	blurbs,
 	carouselImgs,
 }) => {
+	const imgAddress =
+		"https://cdn-ds.com/blogs-media/sites/103/2018/08/12080830/Things-to-Do-Labor-Day-Weekend-in-Portland-Oregon-A_B.jpg";
 	return (
 		<div>
 			<div
 				className="full-width-image main-hero margin-top-0"
 				style={{
 					backgroundImage: `
-				linear-gradient(to right, rgb(0,128,0,0.9) 33%, rgb(255,255,255,0.9) 33% 66%, rgb(255,165,0,0.9) 66% 100%),
-				url(${!!image.childImageSharp ? image.childImageSharp.fluid.src : image})`,
+				linear-gradient(to right, rgb(0,128,0,0.4) 33%, rgb(255,255,255,0.4) 33% 66%, rgb(255,165,0,0.4) 66% 100%),
+				url(${imgAddress})`,
 				}}
 			>
-				<div className="truck-div"></div>
+				{/* <div className="truck-div"></div> */}
 			</div>
 			<section className="section">
 				<div className="container">
