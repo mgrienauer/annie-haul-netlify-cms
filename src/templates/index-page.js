@@ -21,7 +21,7 @@ export const IndexPageTemplate = ({
 	return (
 		<div>
 			<div
-				className="full-width-image main-hero margin-top-0"
+				className="full-width-image-container margin-top-0"
 				style={{
 					backgroundImage: `
 				linear-gradient(to right, rgb(0,128,0,0.4) 33%, rgb(255,255,255,0.4) 33% 66%, rgb(255,165,0,0.4) 66% 100%),
