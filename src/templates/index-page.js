@@ -16,16 +16,13 @@ export const IndexPageTemplate = ({
 	blurbs,
 	carouselImgs,
 }) => {
-	const imgAddress =
-		"https://cdn-ds.com/blogs-media/sites/103/2018/08/12080830/Things-to-Do-Labor-Day-Weekend-in-Portland-Oregon-A_B.jpg";
+	const imgAddress = "/img/index-banner-6";
 	return (
 		<div>
 			<div
 				className="full-width-image-container margin-top-0"
 				style={{
-					backgroundImage: `
-				linear-gradient(to right, rgb(0,128,0,0.4) 33%, rgb(255,255,255,0.4) 33% 66%, rgb(255,165,0,0.4) 66% 100%),
-				url(${imgAddress})`,
+					backgroundImage: `url("/img/index-banner-6.png")`,
 				}}
 			>
 				{/* <div className="truck-div"></div> */}
