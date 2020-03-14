@@ -39,12 +39,18 @@ export const IndexPageTemplate = ({
 				</p>
 				<div className="hero-bottom-row">
 					<img src="/img/yellow-truck.png" className="truck-in-hero" />
-
 					<img src="/img/bbb-logo.png" className="bbb-logo" />
 				</div>
 			</div>
 			<section className="section">
 				<div className="container">
+					<div className="columns">
+						<div className="column is-12">
+							<div className="truck-container">
+								<img src="/img/yellow-truck.png" className="truck-under-hero" />
+							</div>
+						</div>
+					</div>
 					<div className="columns">
 						<div className="column is-10 is-offset-1">
 							<img src={mainpitch.banner}></img>

@@ -41,7 +41,7 @@ p
   margin-left: auto
   span
     margin-right: .7em
-    color: #f5dc38
+    color: #FFBC08
     font-size: 1.5em
     font-weight: bold
   @media screen and (max-width: 1024px)
@@ -88,11 +88,21 @@ p
   height: 170px
   @media screen and (max-width: 1024px)
     display: none
+.truck-container
+  display: flex
+  align-items: center
+  justify-content: center
 .truck-under-hero
   width: 500px
-  height: 340px
-  @media screen and (min-width: 1024px)
+  height: 325px  
+  align-self: center
+  @media screen and (min-width: 1024px) and (max-width: 3000px)
     display: none
+  @media screen and (max-width: 769px)
+    width: 450px
+    height: 240px
+  @media screen and (max-width: 500px)
+    height: 200px
 .secondary-tagline
   padding-top: 1em
   @media screen and (max-width: 900px)
