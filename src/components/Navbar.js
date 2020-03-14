@@ -41,14 +41,21 @@ const Navbar = class extends React.Component {
 				<div className="container">
 					<div className="navbar-brand">
 						<Link to="/" className="navbar-item" title="Logo">
-							<img src={logo} alt="Annie Haul" className="navbar-logo" />
+							<img
+								src={logo}
+								alt="Annie Haul Truck Logo"
+								className="navbar-logo"
+							/>
 						</Link>
 						<a
 							href="tel:503-477-4941"
 							className="navbar-item show-on-mobile phone-btn"
 						>
 							<span>Call Us!</span>
-							<img src="/img/phone.svg" />
+							<img
+								src="https://annie-haul.s3-us-west-2.amazonaws.com/phone.svg/img/phone.svg"
+								alt="phone button"
+							/>
 						</a>
 						{/* Hamburger menu */}
 						<div
