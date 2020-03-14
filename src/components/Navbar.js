@@ -53,7 +53,7 @@ const Navbar = class extends React.Component {
 						>
 							<span>Call Us!</span>
 							<img
-								src="https://annie-haul.s3-us-west-2.amazonaws.com/phone.svg/img/phone.svg"
+								src="https://annie-haul.s3-us-west-2.amazonaws.com/phone.svg"
 								alt="phone button"
 							/>
 						</a>

@@ -16,7 +16,6 @@ export const IndexPageTemplate = ({
 	blurbs,
 	carouselImgs,
 }) => {
-	const imgAddress = "/img/index-hero-2";
 	return (
 		<div>
 			<div
@@ -68,7 +67,10 @@ export const IndexPageTemplate = ({
 					</div>
 					<div className="columns">
 						<div className="column is-10 is-offset-1">
-							<img src={mainpitch.banner}></img>
+							<img
+								src={mainpitch.banner}
+								alt="We donate, we recycle banner"
+							></img>
 						</div>
 					</div>
 					<div className="columns">
