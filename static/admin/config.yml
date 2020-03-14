@@ -96,7 +96,7 @@ collections:
                 ],
             }
 
-      - file: "src/pages/products/index.md"
+      - file: "src/pages/pricing/index.md"
         label: "Pricing Page"
         name: "pricing"
         fields:
