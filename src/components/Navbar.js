@@ -43,6 +43,13 @@ const Navbar = class extends React.Component {
 						<Link to="/" className="navbar-item" title="Logo">
 							<img src={logo} alt="Annie Haul" className="navbar-logo" />
 						</Link>
+						<a
+							href="tel:503-477-4941"
+							className="navbar-item show-on-mobile phone-btn"
+						>
+							<span>Call Us!</span>
+							<img src="/img/phone.svg" />
+						</a>
 						{/* Hamburger menu */}
 						<div
 							className={`navbar-burger burger ${this.state.navBarActiveClass}`}

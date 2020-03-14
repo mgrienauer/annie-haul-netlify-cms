@@ -1,5 +1,10 @@
 @import "~bulma/sass/utilities/initial-variables"
 
+html, body
+  padding: none !important
+  margin: none !important
+  overflow: hidden
+
 // Config vars
 // Kaldi logo brand color: #FD461E
 $kaldi-red: #48c774
@@ -17,6 +22,7 @@ p
 
 .navbar
   position: fixed !important 
+  max-width: 100vw !important
 
 .navbar .navbar-menu
   @media screen and (max-width: 1023px)
@@ -28,8 +34,20 @@ p
 .navbar-logo
   filter: invert(76%) sepia(100%) saturate(3199%) hue-rotate(347deg) brightness(97%) contrast(108%)
   height: 100%
-  width: 80px
+  width: 50px
 
+.phone-btn
+  display: none !important
+  margin-left: auto
+  span
+    margin-right: .7em
+    color: #FFBC08
+    font-size: 1.5em
+    font-weight: bold
+  @media screen and (max-width: 1024px)
+    display: flex !important
+    align-items: flex-end
+    
 .navbar .navbar-item 
   color: #FFF
   &:hover
@@ -42,8 +60,56 @@ p
   @media screen and (max-width: 769px)
     width: 90vw
 
+//bottom row of main hero
+.hero-bottom-row
+  width: 100%
+  bottom: 0
+  display: flex
+  align-items: flex-end
+  align-self: flex-end
+  position: absolute
 
+.bbb-logo
+  margin-left: auto
+  align-self: flex-end
+  width: 240px
+  height: 70px
+  @media screen and (max-width: 1000px)
+    width: 150px
+    height: 50px
+  @media screen and (max-width: 769px)
+    justify-self: center
+    align-self: center
+    margin: 0 auto
+.truck-in-hero
+  align-self: flex-end
+  justify-self: flex-end
+  width: 250px
+  height: 170px
+  @media screen and (max-width: 1024px)
+    display: none
+.truck-container
+  display: flex
+  align-items: center
+  justify-content: center
+.truck-under-hero
+  width: 500px
+  height: 325px  
+  align-self: center
+  @media screen and (min-width: 1024px) and (max-width: 3000px)
+    display: none
+  @media screen and (max-width: 769px)
+    width: 450px
+    height: 240px
+  @media screen and (max-width: 500px)
+    height: 200px
+.secondary-tagline
+  padding-top: 1em
+  @media screen and (max-width: 900px)
+    display: none
+  
 
+//content
 .content .taglist
   list-style: none
   margin-bottom: 0
@@ -61,24 +127,34 @@ p
 
 // Helper Classes
 .full-width-image-container
-  width: 100vw
+  width: 100%
   height: 60vh
   position: relative
-  left: 50%
-  right: 50%
-  margin: 2em -50vw
+  left: 0
+  top: 0
   background-size: cover
-  background-position: center
+  background-position: center bottom
   display: flex
+  flex-direction: column
   justify-content: center
+  text-align: center
   align-items: center
+  h1
+    box-shadow: 0.5rem 0 0 #48c774, -0.5rem 0 0 #48c774
+    background-color: #48c774
+    color: white
+    padding: 1.3rem
+  @media screen and (max-width: 768px)
+    height: 50vh
+    h1
+      box-shadow: 0.3rem 0 0 #48c774, -0.3rem 0 0 #48c774
+      padding: 1rem
+      font-size: 2.7rem !important
 
-.main-hero
-  opacity: 1
 
 .full-width-image
-    width: 100vw
-    height: 70vh
+    width: 100%
+    height: 100%
     background-size: cover
     background-position: center center
     display: flex
@@ -160,11 +236,22 @@ footer.footer
 .has-text-annie-green 
   color: #75b79e !important 
 
+.has-text-darker-green
+  color: #07683A !important
+  -webkit-text-stroke-width: .027em
+  -webkit-text-stroke-color: #FFEB3B
+
+.has-text-dark-green
+  color: #07683A !important
+
 .has-text-green
   color: #388E3C !important
 
 .has-text-lighter-green 
   color: #4CAF50 !important
+
+.has-text-super-bold
+  font-weight: 900 
 
 //Menu overrides
 $menu-item-color: $white-ter
@@ -187,16 +274,27 @@ $menu-label-color: $white-ter
     background-color: #63c786
     color: #FFFFFF !important
 .social
-  padding: 2em
-.social a
-    padding: .5em
+  padding: 1em
+  display: flex
+  .is-in-footer
+    margin: 0 auto
+.social-container
+    display: flex
+    align-items: center
+    justify-content: center
     border-radius: 50%
-    background-color: $white-ter
-    margin: .5em
-    height: 50px
-    width: 50px
+    background-color: #a8f879
+    padding: .5em
+    margin: 0 .5em
+    height: 60px
+    width: 60px
     vertical-align: middle
-    display: inline-block
+    &:hover
+      background-color: darken(#a8f879, 15%)
+    a
+      margin: 0 auto
+
+
 
 // blog roll
 .blog-list-item.is-featured

@@ -4,9 +4,8 @@ import Layout from "../../components/Layout";
 import Map from "../../components/Map";
 
 import facebook from "../../img/social/facebook.svg";
-import instagram from "../../img/social/instagram.svg";
-import twitter from "../../img/social/twitter.svg";
-import vimeo from "../../img/social/vimeo.svg";
+import bbb from "../../img/social/bbb.svg";
+import yelp from "../../img/social/yelp.svg";
 
 function encode(data) {
 	return Object.keys(data)
@@ -48,17 +47,7 @@ export default class Index extends React.Component {
 						backgroundImage: `url('/img/blog-index.jpg')`,
 					}}
 				>
-					<h1
-						className="has-text-weight-bold is-size-1"
-						style={{
-							boxShadow: "0.5rem 0 0 #48c774, -0.5rem 0 0 #48c774",
-							backgroundColor: "#48c774",
-							color: "white",
-							padding: "1.3rem",
-						}}
-					>
-						Contact Us
-					</h1>
+					<h1 className="has-text-weight-bold is-size-1">Contact Us</h1>
 				</div>
 				<section className="section">
 					<div className="container">
@@ -68,9 +57,17 @@ export default class Index extends React.Component {
 									<h3 className="has-text-weight-semibold has-text-green is-size-2">
 										Contact Us
 									</h3>
+									<h4 className="has-text-green has-text-weight-bold is-size-4">
+										Call Us At: 503-477-4941
+									</h4>
+									<h4 className="has-text-green has-text-weight-bold is-size-4">
+										Email Us At: kateanniehaulpdx@gmail.com
+									</h4>
+
+									<br />
 									<h4 className="has-text-green is-size-4">
-										Write us a short message with your name, email, and phone
-										number and we will get back to you as soon as we can.
+										Or, write us a short message with your name, email, and
+										phone number and we will get back to you as soon as we can.
 									</h4>
 									<form
 										name="contact"
@@ -163,47 +160,56 @@ export default class Index extends React.Component {
 										Follow Us
 									</h3>
 									<div className="content">
-										<a title="facebook" href="https://facebook.com">
-											<img
-												src={facebook}
-												alt="Facebook"
-												style={{ width: "2em", height: "2em" }}
-											/>
-										</a>
-										<a title="twitter" href="https://twitter.com">
-											<img
-												className="fas fa-lg"
-												src={twitter}
-												alt="Twitter"
-												style={{ width: "2em", height: "2em" }}
-											/>
-										</a>
-										<a title="instagram" href="https://instagram.com">
-											<img
-												className="fas fa-lg"
-												src={instagram}
-												alt="Instagram"
-												style={{ width: "2em", height: "2em" }}
-											/>
-										</a>
-										<a title="vimeo" href="https://vimeo.com">
-											<img
-												className="fas fa-lg"
-												src={vimeo}
-												alt="Vimeo"
-												style={{ width: "2em", height: "2em" }}
-											/>
-										</a>
-									</div>
+										<div className="social">
+											<div className="social-container">
+												<a
+													title="facebook"
+													href="https://www.facebook.com/Annie-Haul-796544483749241/"
+												>
+													<img
+														src={facebook}
+														alt="Facebook"
+														style={{ width: "2em", height: "2em" }}
+													/>
+												</a>
+											</div>
 
-									<h3 className="has-text-weight-semibold has-text-green is-size-2">
-										Our Location
-									</h3>
-									<h4 className="has-text-green is-size-4">
-										Located in NE Portland and serving the greater Portland
-										Area.
-									</h4>
-									<Map />
+											<div className="social-container">
+												<a
+													title="yelp"
+													href="https://www.yelp.com/biz/annie-haul-portland"
+												>
+													<img
+														src={yelp}
+														alt="Yelp"
+														style={{ width: "3.2em", height: "3em" }}
+													/>
+												</a>
+											</div>
+
+											<div className="social-container">
+												<a
+													title="bbb"
+													href="https://www.bbb.org/us/or/portland/profile/hauling-contractors/annie-haul-llc-1296-22945979"
+												>
+													<img
+														src={bbb}
+														alt="BBB"
+														style={{ width: "3em", height: "3em" }}
+													/>
+												</a>
+											</div>
+										</div>
+
+										<h3 className="has-text-weight-semibold has-text-green is-size-2">
+											Our Location
+										</h3>
+										<h4 className="has-text-green is-size-4">
+											Located in NE Portland and serving the greater Portland
+											Area.
+										</h4>
+										<Map />
+									</div>
 								</div>
 							</div>
 						</div>
