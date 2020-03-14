@@ -27,7 +27,10 @@ export const IndexPageTemplate = ({
 					url('/img/index-hero-2.jpg')`,
 				}}
 			>
-				<img src="/img/logo-3.png" />
+				<img
+					src="https://annie-haul.s3-us-west-2.amazonaws.com/logo-3.png"
+					alt="annie haul logo"
+				/>
 				<p className="has-text-darker-green has-text-super-bold is-size-1 is-size-2-mobile">
 					503-477-4941
 				</p>
@@ -38,8 +41,16 @@ export const IndexPageTemplate = ({
 					Serving The Greater Portland Area
 				</p>
 				<div className="hero-bottom-row">
-					<img src="/img/yellow-truck.png" className="truck-in-hero" />
-					<img src="/img/bbb-logo.png" className="bbb-logo" />
+					<img
+						src="https://annie-haul.s3-us-west-2.amazonaws.com/yellow-truck.png"
+						alt="annie haul yellow truck"
+						className="truck-in-hero"
+					/>
+					<img
+						src="https://annie-haul.s3-us-west-2.amazonaws.com/bbb-logo.png"
+						alt="better business bureaue logo"
+						className="bbb-logo"
+					/>
 				</div>
 			</div>
 			<section className="section">
@@ -47,7 +58,11 @@ export const IndexPageTemplate = ({
 					<div className="columns">
 						<div className="column is-12">
 							<div className="truck-container">
-								<img src="/img/yellow-truck.png" className="truck-under-hero" />
+								<img
+									src="https://annie-haul.s3-us-west-2.amazonaws.com/yellow-truck.png"
+									alt="annie haul yellow truck that says locally owned women owned since 1998"
+									className="truck-under-hero"
+								/>
 							</div>
 						</div>
 					</div>
