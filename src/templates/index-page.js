@@ -16,16 +16,32 @@ export const IndexPageTemplate = ({
 	blurbs,
 	carouselImgs,
 }) => {
-	const imgAddress = "/img/index-banner-6";
+	const imgAddress = "/img/index-hero-2";
 	return (
 		<div>
 			<div
 				className="full-width-image-container margin-top-0"
 				style={{
-					backgroundImage: `url("/img/index-banner-6.png")`,
+					backgroundImage: `
+					linear-gradient(to right, rgb(0,128,0,0.5) 33.3%, rgb(255,255,255,0.5) 33.3% 66.6%, rgb(255,165,0,0.5) 66.6% 100%),
+					url('/img/index-hero-2.jpg')`,
 				}}
 			>
-				{/* <div className="truck-div"></div> */}
+				<img src="/img/logo-3.png" />
+				<p className="has-text-darker-green has-text-super-bold is-size-1 is-size-2-mobile">
+					503-477-4941
+				</p>
+				<p className="has-text-darker-green has-text-super-bold is-size-2 is-size-5-mobile">
+					Haulers With a Conscience
+				</p>
+				<p className="has-text-dark-green is-size-5 has-text-weight-bold secondary-tagline">
+					Serving The Greater Portland Area
+				</p>
+				<div className="hero-bottom-row">
+					<img src="/img/yellow-truck.png" className="truck-in-hero" />
+
+					<img src="/img/bbb-logo.png" className="bbb-logo" />
+				</div>
 			</div>
 			<section className="section">
 				<div className="container">
