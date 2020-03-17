@@ -34,6 +34,7 @@ carouselImgs:
   - image: img/Annie Haul twin trucks.jpg
   - image: img/Full truck pic.jpg
   - image: img/Annie Haul recycle.jpg
+  - image: img/portland skyline.jpg
 blurbs:
   blurbs:
     - image: img/Annie Haul Truck photo.jpg
