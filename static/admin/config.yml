@@ -58,15 +58,27 @@ collections:
                   { label: Banner, name: banner, widget: image },
                   { label: Heading 1, name: heading1, widget: string },
                   { label: Subheading 1, name: subheading1, widget: string },
-                  { label: Description 1, name: description1, widget: text },
+                  {
+                    label: Description 1,
+                    name: description1,
+                    widget: "markdown",
+                  },
 
                   { label: Heading 2, name: heading2, widget: string },
                   { label: Subheading 2, name: subheading2, widget: string },
-                  { label: Description 2, name: description2, widget: text },
+                  {
+                    label: Description 2,
+                    name: description2,
+                    widget: "markdown",
+                  },
 
                   { label: Heading 3, name: heading3, widget: string },
                   { label: Subheading 3, name: subheading3, widget: string },
-                  { label: Description 3, name: description3, widget: text },
+                  {
+                    label: Description 3,
+                    name: description3,
+                    widget: "markdown",
+                  },
                 ],
             }
           - {
@@ -90,7 +102,7 @@ collections:
                     fields:
                       [
                         { label: Image, name: image, widget: image },
-                        { label: Text, name: text, widget: text },
+                        { label: Text, name: text, widget: "markdown" },
                       ],
                   },
                 ],
@@ -137,9 +149,17 @@ collections:
               fields:
                 [
                   { label: Heading 1, name: heading1, widget: string },
-                  { label: Description 1, name: description1, widget: text },
+                  {
+                    label: Description 1,
+                    name: description1,
+                    widget: "markdown",
+                  },
                   { label: Heading 2, name: heading2, widget: string },
-                  { label: Description 2, name: description2, widget: text },
+                  {
+                    label: Description 2,
+                    name: description2,
+                    widget: "markdown",
+                  },
                 ],
             }
 
@@ -156,7 +176,7 @@ collections:
                     widget: list,
                     fields:
                       [
-                        { label: Text, name: text, widget: text },
+                        { label: Text, name: text, widget: "markdown" },
                         { label: Author, name: author, widget: string },
                         { label: URL, name: url, widget: string },
                       ],

@@ -15,6 +15,7 @@ export default class Carousel extends Component {
 			autoplaySpeed: 3000,
 			lazyLoad: true,
 			dots: true,
+			arrows: false,
 		};
 		return (
 			<div className="carousel-slide">
