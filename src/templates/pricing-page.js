@@ -42,7 +42,7 @@ export const PricingPageTemplate = ({
 					<div className="columns">
 						<div className="column is-10 is-offset-1">
 							<h3 className="has-text-weight-semibold has-text-green is-size-2">
-								{pricing.heading}
+								{pricing.heading ? pricing.heading : ""}
 							</h3>
 							<h4 className="has-text-weight-semibold has-text-green is-size-3">
 								Largest Hauling Trucks in Portland
@@ -70,7 +70,7 @@ export const PricingPageTemplate = ({
 							<ShamrockDiv />
 							<div className="content">
 								<h3 className="has-text-weight-semibold has-text-green is-size-2">
-									{reviews.heading}
+									{reviews.heading ? reviews.heading : ""}
 								</h3>
 								<Testimonials testimonials={reviews.reviews} />
 							</div>
