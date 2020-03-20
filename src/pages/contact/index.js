@@ -1,7 +1,6 @@
 import React from "react";
 import { navigate } from "gatsby-link";
 import Layout from "../../components/Layout";
-import Map from "../../components/Map";
 
 import facebook from "../../img/social/facebook.svg";
 import bbb from "../../img/social/bbb.svg";

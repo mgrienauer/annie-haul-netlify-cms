@@ -16,17 +16,7 @@ export const PricingPageTemplate = ({
 	return (
 		<div className="content">
 			<div className="full-width-image-container margin-top-0 pricing-page-hero">
-				<h1
-					className="has-text-weight-bold is-size-1"
-					style={{
-						boxShadow: "0.5rem 0 0 #48c774, -0.5rem 0 0 #48c774",
-						backgroundColor: "#48c774",
-						color: "white",
-						padding: "1.3rem",
-					}}
-				>
-					{title}
-				</h1>
+				<h1 className="has-text-weight-bold is-size-1">{title}</h1>
 			</div>
 
 			<section class="section">
