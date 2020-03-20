@@ -1,7 +1,7 @@
 ---
 templateKey: pricing-page
 title: Our Pricing
-image: /img/portland skyline.jpg
+image: img/Annie Haul twin trucks.jpg
 pricing:
   heading: Pricing - 16 ft. Box Trucks
   plans:
