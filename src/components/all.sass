@@ -129,9 +129,8 @@ p
 .full-width-image-container
   width: 100%
   height: 60vh
+  margin: 0 auto
   position: relative
-  left: 0
-  top: 0
   background-size: cover
   background-position: center bottom
   display: flex
@@ -140,14 +139,13 @@ p
   text-align: center
   align-items: center
   h1
-    box-shadow: 0.5rem 0 0 #48c774, -0.5rem 0 0 #48c774
-    background-color: #48c774
-    color: white
+    background: rgba(72, 199, 116, 0.7)
+    border-radius: 7px
+    color: white!important
     padding: 1.3rem
   @media screen and (max-width: 768px)
-    height: 50vh
+    height: 60vh
     h1
-      box-shadow: 0.3rem 0 0 #48c774, -0.3rem 0 0 #48c774
       padding: 1rem
       font-size: 2.7rem !important
 
@@ -160,6 +158,11 @@ p
     display: flex
     justify-content: center
     align-items: center
+
+.pricing-page-hero
+  background-image: url('../../public/img/pricing-page-hero.jpg')
+  @media screen and (max-width: 768px)
+    background-image: url('../../public/img/pricing-page-hero-mobile.jpg')
 
 .btn
     display: inline-block
@@ -283,14 +286,14 @@ $menu-label-color: $white-ter
     align-items: center
     justify-content: center
     border-radius: 50%
-    background-color: #a8f879
+    background-color: #d4ecc6
     padding: .5em
     margin: 0 .5em
     height: 60px
     width: 60px
     vertical-align: middle
     &:hover
-      background-color: darken(#a8f879, 15%)
+      background-color: darken(#d4ecc6, 15%)
     a
       margin: 0 auto
 
