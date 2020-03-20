@@ -60,8 +60,14 @@ export default class Index extends React.Component {
 									<h4 className="has-text-green has-text-weight-bold is-size-4">
 										Call Us At: 503-477-4941
 									</h4>
-									<h4 className="has-text-green has-text-weight-bold is-size-4">
-										Email Us At: kateanniehaulpdx@gmail.com
+									<h4
+										className="has-text-green has-text-weight-bold is-size-4"
+										style={{ overflowWrap: "break-word" }}
+									>
+										Email Us At:{" "}
+										<span className="is-size-4 is-size-5-mobile">
+											kateanniehaulpdx@gmail.com
+										</span>
 									</h4>
 
 									<br />
@@ -201,14 +207,17 @@ export default class Index extends React.Component {
 											</div>
 										</div>
 
-										<h3 className="has-text-weight-semibold has-text-green is-size-2">
-											Our Location
-										</h3>
-										<h4 className="has-text-green is-size-4">
-											Located in NE Portland and serving the greater Portland
-											Area.
-										</h4>
-										<Map />
+										<div className="content">
+											<div
+												className="truck-container"
+												style={{ marginTop: "1.5em" }}
+											>
+												<img
+													src="https://annie-haul.s3-us-west-2.amazonaws.com/yellow-truck.png"
+													alt="annie haul yellow truck that says locally owned women owned since 1998"
+												/>
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>
