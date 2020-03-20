@@ -13,17 +13,9 @@ export const PricingPageTemplate = ({
 	pricing,
 	reviews,
 }) => {
-	console.log(reviews);
 	return (
 		<div className="content">
-			<div
-				className="full-width-image-container margin-top-0"
-				style={{
-					backgroundImage: `url(${
-						!!image.childImageSharp ? image.childImageSharp.fluid.src : image
-					})`,
-				}}
-			>
+			<div className="full-width-image-container margin-top-0 pricing-page-hero">
 				<h1
 					className="has-text-weight-bold is-size-1"
 					style={{
