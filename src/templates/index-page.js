@@ -7,6 +7,7 @@ import Features from "../components/Features";
 import BlogRoll from "../components/BlogRoll";
 import ShamrockDiv from "../components/ShamrockDiv";
 import Carousel from "../components/Carousel";
+import WhatWeTake from "../components/WhatWeTake";
 
 export const IndexPageTemplate = ({
 	title,
@@ -84,6 +85,15 @@ export const IndexPageTemplate = ({
 										{mainpitch.subheading1}
 									</h4>
 									<p className="has-text-dark-grey">{mainpitch.description1}</p>
+									<h3 className="title has-text-green has-text-weight-semibold is-size-2">
+										What We Take
+									</h3>
+									{/* <WhatWeTake
+										col1={mainpitch.col1}
+										col2={mainpitch.col2}
+										col3={mainpitch.col3}
+										col4={mainpitch.col4}
+									/> */}
 								</div>
 
 								<ShamrockDiv />
