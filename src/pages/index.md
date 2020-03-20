@@ -5,6 +5,23 @@ subtitle: Haulers With A Conscience
 image: /img/fremontbridge.jpg
 mainpitch:
   banner: img/banner.PNG
+  col1: >-
+    Plastic, Styrofoam/ block Styrofoam IS recycled, Business and office
+    furniture, Business marketing supplies and samples, Mattresses, Household
+    Goods, Box Springs, Wood, Padding, Books, T.V.s 
+  col2: >-
+    Household, Appliances, "Stuff", Carpet ,Paint / Household Chemicals ( small
+    quantities), Sofas, Electronics, Musical Instruments, Chairs, Renovation
+    Debris, Love seats, Cardboard, Tires, Paper, Computer Equipment
+  col3: >-
+    Magazines, Rugs, Clothing, Shelving, Construction Debris, Drywall ( may
+    require lab test), Doors,Glass, Flooring ( may require lab test), Roofing  (
+    may require lab test), Metal Lumber, Plywood Art supplies Marketing samples,
+    architectural samples  etc., Construction debris
+  col4: >-
+    Doors, Windows, Cabinetry, Household Hazmat ( additional fees), Wood Paint,
+    Furniture, Metal, Plastic, Electronic, Paper, Cardboard, Styrofoam, Yard
+    debris
   description1: >-
     Annie Haul is a Portland-based company owned by Kate O'Halloran. We are
     professionals and committed to customer satisfaction. Our Mission is to
