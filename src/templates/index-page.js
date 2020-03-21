@@ -85,15 +85,16 @@ export const IndexPageTemplate = ({
 										{mainpitch.subheading1}
 									</h4>
 									<p className="has-text-dark-grey">{mainpitch.description1}</p>
-									<h3 className="title has-text-green has-text-weight-semibold is-size-2">
+									<h4 className="title has-text-green has-text-weight-semibold is-size-3">
 										What We Take
-									</h3>
-									{/* <WhatWeTake
+									</h4>
+									{console.log(mainpitch)}
+									<WhatWeTake
 										col1={mainpitch.col1}
 										col2={mainpitch.col2}
 										col3={mainpitch.col3}
 										col4={mainpitch.col4}
-									/> */}
+									/>
 								</div>
 
 								<ShamrockDiv />
@@ -229,6 +230,10 @@ export const pageQuery = graphql`
 					description1
 					description2
 					description3
+					col1
+					col2
+					col3
+					col4
 				}
 			}
 		}
