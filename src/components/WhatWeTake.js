@@ -4,7 +4,7 @@ export default function WhatWeTake({ col1, col2, col3, col4 }) {
 	const ItemsCol = colItems => (
 		<div className="column is-6">
 			<ul>
-				{colItems.map(item => (
+				{colItems.colItems.split(", ").map(item => (
 					<li>{item}</li>
 				))}
 			</ul>
@@ -24,6 +24,7 @@ export default function WhatWeTake({ col1, col2, col3, col4 }) {
 				<div className="column is-6">
 					<div className="columns is-mobile">
 						<ItemsCol colItems={col3} />
+						{console.log(col4)}
 						<ItemsCol colItems={col4} />
 					</div>
 				</div>
