@@ -1,8 +1,14 @@
 module.exports = {
 	siteMetadata: {
-		title: "Annie Haul Portland",
+		title: "Annie Haul Portland Junk Hauling",
 		description:
-			"This is the website for Annie Haul, a Portland-based junk hauling company.",
+			"Annie Haul is a hauling company with an eco-friendly and environmentally conscious approach to junk hauling.",
+		phone: "503-477-4941",
+		email: "kateanniehaulpdx@gmail.com",
+		facebookUrl: "https://www.facebook.com/Annie-Haul-796544483749241/",
+		yelpUrl: "https://www.yelp.com/biz/annie-haul-portland",
+		imageUrl:
+			"https://annie-haul.s3-us-west-2.amazonaws.com/Annie+Haul+Ad+photo.jpg",
 	},
 	plugins: [
 		"gatsby-plugin-react-helmet",
