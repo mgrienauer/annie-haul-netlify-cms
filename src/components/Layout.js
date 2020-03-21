@@ -7,19 +7,17 @@ import useSiteMetadata from "./SiteMetadata";
 import { withPrefix } from "gatsby";
 
 const TemplateWrapper = ({ children }) => {
-	const { title, description } = useSiteMetadata();
+	const { title, description, phone, email, imageUrl } = useSiteMetadata();
 	return (
 		<div>
 			<Helmet>
 				<html lang="en" className="has-navbar-fixed-top" />
 				<title>{title}</title>
 				<meta name="description" content={description} />
+				<meta name="phone" content={phone} />
+				<meta name="email" content={email} />
 
-				<link
-					rel="apple-touch-icon"
-					sizes="180x180"
-					href={`${withPrefix("/")}img/apple-touch-icon.png`}
-				/>
+				<link rel="apple-touch-icon" sizes="180x180" href={`${imageUrl}`} />
 				<link
 					rel="icon"
 					type="image/png"
