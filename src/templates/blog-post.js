@@ -30,7 +30,7 @@ export const BlogPostTemplate = ({
 						<div
 							className="full-width-image-container"
 							style={{
-								backgroundImage: `url(${featuredimage})`,
+								backgroundImage: `url('/${featuredimage}')`,
 							}}
 						></div>
 						<PostContent content={content} />
