@@ -5,6 +5,7 @@ import Helmet from "react-helmet";
 import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
+import ShamrockDiv from "../components/ShamrockDiv";
 
 export const BlogPostTemplate = ({
 	content,
@@ -33,6 +34,7 @@ export const BlogPostTemplate = ({
 								backgroundImage: `url('/${featuredimage}')`,
 							}}
 						></div>
+						<ShamrockDiv />
 						<PostContent content={content} />
 						{tags && tags.length ? (
 							<div style={{ marginTop: `4rem` }}>
