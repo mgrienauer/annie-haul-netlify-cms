@@ -24,9 +24,6 @@ mainpitch:
     Furniture, Metal, Plastic, Electronic, Paper, Cardboard, Styrofoam, Yard
     debris
   description1: >-
-    #### Homes, Offices and Businesses
-
-
     Annie Haul is a Portland-based company owned by Kate O'Halloran. We are
     professionals and committed to customer satisfaction. Our Mission is to
     donate anything possible to local non-profits and artists! We are licensed
