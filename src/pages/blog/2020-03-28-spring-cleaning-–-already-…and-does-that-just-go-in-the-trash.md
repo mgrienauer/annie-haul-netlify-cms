@@ -6,7 +6,7 @@ description: >-
   Annie Haul wants help you ethically dispose of your stuff. We recycle as much
   as we can, donating with dignity!
 featuredpost: true
-featuredimage: img/banner.PNG
+featuredimage: img/Annie Haul Truck photo.jpg
 tags:
   - recycle
   - spring
