@@ -12,13 +12,13 @@ tags:
   - pandemic
   - quarantine
 ---
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <o:OfficeDocumentSettings>
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:WordDocument>
   <w:View>Normal</w:View>
   <w:Zoom>0</w:Zoom>
@@ -57,9 +57,9 @@ tags:
    <m:intLim m:val="subSup"/>
    <m:naryLim m:val="undOvr"/>
   </m:mathPr></w:WordDocument>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 9]><xml>
+<!--\\[if gte mso 9]><xml>
  <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
   DefSemiHidden="false" DefQFormat="false" DefPriority="99"
   LatentStyleCount="375">
@@ -636,9 +636,9 @@ tags:
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Unresolved Mention"/>
  </w:LatentStyles>
-</xml><!\[endif]-->
+</xml><!\\[endif]-->
 
-<!--\[if gte mso 10]>
+<!--\\[if gte mso 10]>
 <style>
  /* Style Definitions */
  table.MsoNormalTable
@@ -661,36 +661,20 @@ tags:
 	mso-bidi-font-family:"Times New Roman";
 	mso-bidi-theme-font:minor-bidi;}
 </style>
-<!\[endif]-->
+<!\\[endif]-->
 
 <!--StartFragment-->
 
-What I once called spring cleaning has taken on a new name and meaning… QUARANCLEANING!With so many people staying home to stop the spread and flatten the curve, spring cleaning is getting more attention than we’ve seen in a long time – even for ourselves. We take social responsibility seriously, so we stayed home too while we figure out a new normal in order to maintain public and personal safety.Here’s the scoop on your stuff and everyone’s safety:
-
-
+What I once called spring cleaning has taken on a new name and meaning… QUARANCLEANING! With so many people staying home to stop the spread and flatten the curve, spring cleaning is getting more attention than we’ve seen in a long time – even for ourselves. We take social responsibility seriously, so we stayed home too while we figure out a new normal in order to maintain public and personal safety.Here’s the scoop on your stuff and everyone’s safety:
 
 We are still maintaining our mission as the Annie Haul you know to donate and recycle as much as we can.You may have noticed, donation centers and non-essential establishments are closed right now and not accepting donations.Even though their donation centers are closed, the people they serve are still out there with limited services.We have secured a donation storage spot so that when we get the word, we can start taking the stuff we hauled away to the centers immediately to serve as many Oregonians as possible. But wait, there’s more!
 
-
-
 We can still recycle paint, scrap metal, styrofoam and much more. We will continue to update our services if that changes. We are using the expression “Semper Gumby” – it’s Latin for “always flexible.” We are operating as safety allows, and consolidated our pick-up days. Call us at (503) 477-4941 for the most up to date info on available services. 
-
-
 
 Regarding personal safety, social distancing rules still apply.Our staff is geared up with coveralls, masks and gloves.We always have this equipment, but now it’s on for the entire day to keep our employees safe when they pick up your stuff.
 
-
-
 Which brings us to the next step – your stuff! In order maintain social distancing in both the letter and the spirit of the law, we ask that you put your things either in a garage, porch, or patio to be kept dry for pick up. We can also go to a storage unit or permanently vacated home for pick up. Please do not put your stuff curbside. At this time, we won’t be going into your homes to get your stuff until it is safe again. We don’t normally do this, but we are in strange times!
 
-
-
 Call us at (503) 477-4941 to schedule a pick up. Our crew will be there to remove your unwanted belongings – you won’t even know if they’re smiling because you’ll be more than six feet away and everyone is wearing masks! Those Irish eyes are smiling though, we are ready for your call.
-
-
-
-
-
-
 
 <!--EndFragment-->
