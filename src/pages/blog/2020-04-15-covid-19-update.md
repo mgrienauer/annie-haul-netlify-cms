@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: COVID-19 Update
 date: 2020-04-14T23:57:27.224Z
-description: TLDR; How we are operating safely during the pandemic
+description: 'TLDR: Call us at (503) 477-4941 for information'
 featuredpost: true
 featuredimage: img/mask.jpg
 tags:
