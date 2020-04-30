@@ -92,7 +92,7 @@ export const IndexPageTemplate = ({
 										</div>
 										<div className="column">
 											<img
-												src="https://annie-haul.s3-us-west-2.amazonaws.com/logo-3.png"
+												src="https://annie-haul.s3-us-west-2.amazonaws.com/20200427_085742.jpg"
 												alt="kate o'halloran"
 												height="450"
 												width="300"
