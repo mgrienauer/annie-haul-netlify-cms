@@ -81,12 +81,25 @@ export const IndexPageTemplate = ({
 									<h3 className="title has-text-green has-text-weight-semibold is-size-2">
 										{mainpitch.heading1}
 									</h3>
-									<h4 className="title has-text-green has-text-weight-semibold is-size-3">
-										{mainpitch.subheading1}
-									</h4>
-									<h5 className="title has-text-green has-text-weight-semibold is-size-4">
-										Homes, Offices, Businesses
-									</h5>
+									<div className="columns">
+										<div className="column">
+											<h4 className="title has-text-green has-text-weight-semibold is-size-3">
+												{mainpitch.subheading1}
+											</h4>
+											<h5 className="title has-text-green has-text-weight-semibold is-size-4">
+												Homes, Offices, Businesses
+											</h5>
+										</div>
+										<div className="column">
+											<img
+												src="https://annie-haul.s3-us-west-2.amazonaws.com/logo-3.png"
+												alt="kate o'halloran"
+												height="450"
+												width="300"
+											/>
+										</div>
+									</div>
+
 									<p className="has-text-dark-grey">{mainpitch.description1}</p>
 									<h4 className="title has-text-green has-text-weight-semibold is-size-3">
 										What We Take
@@ -203,13 +216,7 @@ export const pageQuery = graphql`
 			frontmatter {
 				title
 				subtitle
-				image {
-					childImageSharp {
-						fluid(maxWidth: 2048, quality: 100) {
-							...GatsbyImageSharpFluid
-						}
-					}
-				}
+				image
 
 				carouselImgs {
 					image
