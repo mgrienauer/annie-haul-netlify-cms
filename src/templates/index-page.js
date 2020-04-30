@@ -89,6 +89,9 @@ export const IndexPageTemplate = ({
 											<h5 className="title has-text-green has-text-weight-semibold is-size-4">
 												Homes, Offices, Businesses
 											</h5>
+											<p className="has-text-dark-grey">
+												{mainpitch.description1}
+											</p>
 										</div>
 										<div className="column">
 											<img
@@ -100,7 +103,6 @@ export const IndexPageTemplate = ({
 										</div>
 									</div>
 
-									<p className="has-text-dark-grey">{mainpitch.description1}</p>
 									<h4 className="title has-text-green has-text-weight-semibold is-size-3">
 										What We Take
 									</h4>
