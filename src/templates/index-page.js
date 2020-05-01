@@ -95,8 +95,8 @@ export const IndexPageTemplate = ({
 										</div>
 										<div className="column">
 											<img
-												src="https://annie-haul.s3-us-west-2.amazonaws.com/20200427_085742.jpg"
-												alt="kate o'halloran"
+												src="https://annie-haul.s3-us-west-2.amazonaws.com/kate_headshot.jpg"
+												alt="kate o'halloran, owner of annie haul"
 												height="450"
 												width="300"
 											/>
@@ -106,7 +106,6 @@ export const IndexPageTemplate = ({
 									<h4 className="title has-text-green has-text-weight-semibold is-size-3">
 										What We Take
 									</h4>
-									{console.log(mainpitch)}
 									<WhatWeTake
 										col1={mainpitch.col1}
 										col2={mainpitch.col2}
