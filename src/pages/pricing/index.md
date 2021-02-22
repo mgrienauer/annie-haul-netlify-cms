@@ -1,20 +1,20 @@
 ---
 templateKey: pricing-page
-title: Our Pricing
+title: ' Pricing: Bigger Trucks Best Rates'
 image: img/Annie Haul twin trucks.jpg
 pricing:
   heading: Pricing - 16 ft. Box Trucks
   plans:
     - plan: 1/4
-      price: 250-375
+      price: 290-390
     - plan: 1/3
-      price: 375-525
+      price: 390-550
     - plan: 1/2
-      price: 575-750
+      price: 590-775
     - plan: 3/4
-      price: 850-1000
+      price: 875-1100
     - plan: Full Truck
-      price: 1200-1450
+      price: 1250-1450
   subheading: Largest Hauling Trucks in Portland
 main:
   description1: >-
