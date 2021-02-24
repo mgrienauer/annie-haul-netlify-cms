@@ -7,7 +7,7 @@ description: >-
   HANDBAG!  Annie Haul's latest in generating true good will and continuing to
   lead the way in Green Hauling. "Haulers with a Conscience"  Please read on!
 featuredpost: true
-featuredimage: img/Oscar headshot.jpg
+featuredimage: img/oscar_wilde_by_napoleon_sarony_with_hat_and_cape_1882_wikicommonsjpg.jpg
 tags:
   - www.anniehaul.com
   - www.haulinahandbag.com
