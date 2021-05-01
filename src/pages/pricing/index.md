@@ -24,9 +24,10 @@ main:
     removed. If you have less, we will gladly adjust. Hazmat fees of $25 or more
     may be added depending on quantities.
   description2: >-
-    $80-100. Inner Portland Only (sorry no discounts on minimum hauls) $35.00
-    fee added for large furniture. A fee might be added for stairs or elevators
-    as well as any difficult parking of our trucks.
+    $100-125 Minimum Call out for truck and 2 people.  Inner Portland Only
+    (sorry no discounts on minimum hauls) $35.00 fee added for large furniture.
+    A fee might be added for stairs or elevators as well as any difficult
+    parking of our trucks.
 
 
     We operate the largest hauling trucks in Portland-- 16' ft box trucks,
