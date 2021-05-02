@@ -14,4 +14,4 @@ tags:
   - www.rebuildingcenter.org
   - www.oregonmetro.gov
 ---
-Annie Haul is Woman Owned and Operated.  LGBTQ Owned and Operated.  We are HIRING  Driver/Foreperson.  Monday-Thursday. Typically 9-3 give or take. Experienced Box truck drivers earn $18-$21 per hour plus great gratuities. Please email a short letter of interest and your resume to our on this site.
+Annie Haul is Woman Owned and Operated.  LGBTQ Owned and Operated.  We are HIRING  Driver/Foreperson.  Monday-Thursday. Typically 9-3 give or take. Experienced Box truck drivers earn $18-$21 per hour plus great gratuities, some bonuses.  Please email a short letter of interest and your resume to kateanniehaulpdx@gmail.com on this site.
