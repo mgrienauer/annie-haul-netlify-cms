@@ -212,7 +212,7 @@ export default class Index extends React.Component {
 												style={{ marginTop: "1.5em" }}
 											>
 												<img
-													src="../img/og-image.jpg"
+													src="img/og-image.jpg"
 													alt="annie haul yellow truck that says locally owned women owned since 1998"
 												/>
 											</div>

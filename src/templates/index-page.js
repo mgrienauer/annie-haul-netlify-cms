@@ -47,7 +47,7 @@ export const IndexPageTemplate = ({
 						className="truck-in-hero"
 					/>
 					<img
-						src="../img/bbb-logo-hero.jpg"
+						src="img/bbb-logo-hero.jpg"
 						alt="better business bureaue logo"
 						className="bbb-logo"
 					/>
@@ -59,7 +59,7 @@ export const IndexPageTemplate = ({
 						<div className="column is-12">
 							<div className="truck-container">
 								<img
-									src="../img/og-image.jpg"
+									src="img/og-image.jpg"
 									alt="annie haul yellow truck that says locally owned women owned since 1998"
 									className="truck-under-hero"
 								/>
@@ -95,7 +95,7 @@ export const IndexPageTemplate = ({
 										</div>
 										<div className="column">
 											<img
-												src="../img/Annie Haul garage clear out.jpg"
+												src="img/Annie Haul garage clear out.jpg"
 												alt="kate o'halloran, owner of annie haul"
 											/>
 										</div>
