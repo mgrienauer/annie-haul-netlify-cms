@@ -28,7 +28,7 @@ export const IndexPageTemplate = ({
 				}}
 			>
 				<img
-					src="/img/logo-crop-no-bg.png"
+					src="img/logo-crop-no-bg.png"
 					alt="annie haul logo"
 				/>
 				<p className="has-text-darker-green has-text-super-bold is-size-1 is-size-2-mobile">
