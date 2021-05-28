@@ -41,6 +41,12 @@ main:
 reviews:
   heading: Customer Reviews
   reviews:
+    - author: T.S.
+      text: >-
+        I hired Annie Haul for a major house cleanout preparing for sale in a very difficult situation. It was a very big job, filling one huge truck with donatable items and another with junk and trash. It was also a delicate and complex emotional situation with the owner, which Kate and her crew handled compassionately and competently.
+        
+        Results were excellent, communication was impeccable throughout and price was competitive or better, especially given how much work was required to gather items from througout the house so they could be donated rather than go to the landfill. I could not have hoped for a better result from the cleanout and would absolutely hire Annie Haul again.
+      url: 'https://www.yelp.com/biz/annie-haul-portland'
     - author: Chris B.
       text: >-
         We found Annie Haul on Yelp. They turned out to be an excellent choice!

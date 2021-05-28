@@ -47,12 +47,15 @@ mainpitch:
   subheading2: Safe And Conscious Junk Removal
   subheading3: Haulers With A Conscience
 carouselImgs:
-  - image: img/Annie Haul laughing Crew.jpg
+  - image: img/workers.jpg
+  - image: img/organ.jpg
+  - image: img/dog.jpg
+  - image: img/junk-shirt.jpg
   - image: img/Annie Haul Happy Crew.jpg
+  - image: img/Annie Haul laughing Crew.jpg
   - image: img/Annie Haul twin trucks.jpg
   - image: img/Full truck pic.jpg
   - image: img/Annie Haul recycle.jpg
-  - image: img/portland skyline.jpg
 blurbs:
   blurbs:
     - image: img/Annie Haul Truck photo.jpg

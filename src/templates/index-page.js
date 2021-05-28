@@ -28,7 +28,7 @@ export const IndexPageTemplate = ({
 				}}
 			>
 				<img
-					src="https://annie-haul.s3-us-west-2.amazonaws.com/logo-3.png"
+					src="/img/logo-crop-no-bg.png"
 					alt="annie haul logo"
 				/>
 				<p className="has-text-darker-green has-text-super-bold is-size-1 is-size-2-mobile">
@@ -47,7 +47,7 @@ export const IndexPageTemplate = ({
 						className="truck-in-hero"
 					/>
 					<img
-						src="https://annie-haul.s3-us-west-2.amazonaws.com/bbb-logo.png"
+						src="../img/bbb-logo-hero.jpg"
 						alt="better business bureaue logo"
 						className="bbb-logo"
 					/>
@@ -59,7 +59,7 @@ export const IndexPageTemplate = ({
 						<div className="column is-12">
 							<div className="truck-container">
 								<img
-									src="https://annie-haul.s3-us-west-2.amazonaws.com/yellow-truck.png"
+									src="../img/og-image.jpg"
 									alt="annie haul yellow truck that says locally owned women owned since 1998"
 									className="truck-under-hero"
 								/>
@@ -95,10 +95,8 @@ export const IndexPageTemplate = ({
 										</div>
 										<div className="column">
 											<img
-												src="https://annie-haul.s3-us-west-2.amazonaws.com/kate_headshot.jpg"
+												src="../img/Annie Haul garage clear out.jpg"
 												alt="kate o'halloran, owner of annie haul"
-												height="450"
-												width="300"
 											/>
 										</div>
 									</div>
