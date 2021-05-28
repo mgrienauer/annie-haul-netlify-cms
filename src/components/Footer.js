@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 
 import facebook from "../img/social/facebook.svg";
-import bbb from "/social/bbb.svg";
+import bbb from "../img/social/bbb.svg";
 import yelp from "../img/social/yelp.svg";
 
 const footerlogo = "../img/footer-logo.png";
