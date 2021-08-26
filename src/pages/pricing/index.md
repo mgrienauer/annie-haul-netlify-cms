@@ -24,10 +24,10 @@ main:
     removed. If you have less, we will gladly adjust. Hazmat fees of $25 or more
     may be added depending on quantities.
   description2: >-
-    $100-125 Minimum Call out for truck and 2 people.  Inner Portland Only
-    (sorry no discounts on minimum hauls) $35.00 fee added for large furniture.
-    A fee might be added for stairs or elevators as well as any difficult
-    parking of our trucks.
+    $125-150 Minimum Call out for truck and 2 people.  Inner Portland Only
+    (sorry no discounts on minimum hauls) Heavy or hard to donate furniture, or
+    loads with mostly "junk" will land at the higher end of the price break
+    downs. Stair fees start at $75.00.  Hazmats over one tub, add $35 and up. 
 
 
     We operate the largest hauling trucks in Portland-- 16' ft box trucks,
@@ -43,9 +43,18 @@ reviews:
   reviews:
     - author: T.S.
       text: >-
-        I hired Annie Haul for a major house cleanout preparing for sale in a very difficult situation. It was a very big job, filling one huge truck with donatable items and another with junk and trash. It was also a delicate and complex emotional situation with the owner, which Kate and her crew handled compassionately and competently.
-        
-        Results were excellent, communication was impeccable throughout and price was competitive or better, especially given how much work was required to gather items from througout the house so they could be donated rather than go to the landfill. I could not have hoped for a better result from the cleanout and would absolutely hire Annie Haul again.
+        I hired Annie Haul for a major house cleanout preparing for sale in a
+        very difficult situation. It was a very big job, filling one huge truck
+        with donatable items and another with junk and trash. It was also a
+        delicate and complex emotional situation with the owner, which Kate and
+        her crew handled compassionately and competently.
+
+        Results were excellent, communication was impeccable throughout and
+        price was competitive or better, especially given how much work was
+        required to gather items from througout the house so they could be
+        donated rather than go to the landfill. I could not have hoped for a
+        better result from the cleanout and would absolutely hire Annie Haul
+        again.
       url: 'https://www.yelp.com/biz/annie-haul-portland'
     - author: Chris B.
       text: >-
